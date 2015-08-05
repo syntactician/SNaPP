@@ -4,12 +4,12 @@
 Created 5 August 2015 by Edward Hernández  
 Last modified 5 August 2015 by Edward Hernández  
 
-Original version "Biopac How-To" created 23 July 2013 by Drew Englehardt  
-Based on YouTube tutorials created by [BIOPAC Systems](https://www.youtube.com/user/BiopacSystems)
+Original version "[Biopac How-To][Original]" created 23 July 2013 by Drew Englehardt  
+Based on [YouTube tutorials](https://www.youtube.com/user/BiopacSystems) created by BIOPAC Systems
 
 ## About this Manual
 
-This manual is meant to document the practices currently used by student researchers in the College of William & Mary's Social Networks and Political Psychology Lab. This document makes no claim to be authoritative in any way. If you would like more information about why these particular steps or taken or about the decisions which lead to this set-up, [contact Edward Hernández](mailto:ehernandez@email.wm.edu).
+This manual is meant to document the practices currently used by student researchers in the College of William & Mary's Social Networks and Political Psychology Lab. This document makes no claim to be authoritative in any way. If you would like more information about why these particular steps are taken or about the decisions which lead to this set-up, [contact Edward Hernández](mailto:ehernandez@email.wm.edu).
 
 ## Setting up the Hardware
 
@@ -57,6 +57,7 @@ This creates a new waveform that is a count of the number of EDA events in the c
 6. Make sure the EDA channel is selected, and hit ok.
 7. Finally, the EDA events are marked as below. The beginning and end of the SCR event are marked by ( and ) respectively. The peak event response is marked by a water droplet, like below.
 
+[Original]: Legacy/biopac_howto.docx
 [MP150assembled]: .Pictures/MP150assembled.png
 [AT-FS708]: .Pictures/AT-FS708.png
 [MP150selection]: .Pictures/MP150selection.png
