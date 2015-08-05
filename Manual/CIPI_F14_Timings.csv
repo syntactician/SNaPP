@@ -1,0 +1,24 @@
+,Political Condition,Start Timing of Slide from Beginning,Apolitical Condition,Start Timing of Slide from Beginning
+Blank Screen,60,0,60,0
+Video 1.1,41,60,33,60
+Blank Screen,60,101,60,93
+Video 1.2,33,161,34,153
+Blank Screen,60,194,60,187
+Video 1.3,36,254,23,247
+Blank Screen,60,290,60,270
+Total Section Time (s),350,,330,
+Relax Screen,30,350,30,330
+Blank Screen,60,380,60,360
+Video 2.1,33,440,41,420
+Blank Screen,60,473,60,461
+Video 2.2,34,533,33,521
+Blank Screen,60,567,60,554
+Video 2.3,23,627,36,614
+Blank Screen,60,650,60,650
+Total Section Time (s),710,,710,
+Relax Screen,30,710,30,710
+Blank Screen,60,740,60,740
+Discussion Slide,30,800,30,800
+Discussant Info Slide,30,830,30,830
+Discussion Topic Slide,150,860,150,860
+Total Time (s),1010,1010,1010,1010
