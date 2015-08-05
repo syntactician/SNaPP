@@ -92,12 +92,12 @@
 
 #### Collecting Data:
 
-Unless Acq*Knowledge* is already up and ready to go at this point (as it should be for first participant of the day), resets the equipment and open a new graph in Acq*Knowledge* (see earlier sections for more detailed instructions).
-Bring up the lab log side-by-side with the Acq*Knowledge* graph.
-press START to begin the Acq*Knowledge* recording before starting SuperLab.
-Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly.
-After the first set of videos ends and the instruction screen appears, peek at the edges of the blinds to make sure that the participant is answering the Qualtrics survey on the laptop.  When they are finished with the survey (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
-Repeat step 4 after the second set of videos
+1. Unless Acq*Knowledge* is already up and ready to go at this point (as it should be for first participant of the day), resets the equipment and open a new graph in Acq*Knowledge* (see earlier sections for more detailed instructions).
+2. Bring up the lab log side-by-side with the Acq*Knowledge* graph.
+3. press START to begin the Acq*Knowledge* recording before starting SuperLab.
+4. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly.
+5. After the first set of videos ends and the instruction screen appears, peek at the edges of the blinds to make sure that the participant is answering the Qualtrics survey on the laptop.  When they are finished with the survey (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
+6. Repeat step 4 after the second set of videos
 7. **DISCUSSION STIMULUS**
     a. The participant thinks that they are preparing for a political conversation. You need to keep your eye on the stimulus and give them through to the start of the final blank screen to prepare.
     b. Once the stimulus switches to the blank screen, knock on the door, enter the room and close door after you so no one overhears, and perform the deception according to the following script:
