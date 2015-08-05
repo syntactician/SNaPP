@@ -18,7 +18,7 @@ This manual is meant to document the practices currently used by student researc
 ![Attached cords][AT-FS708]
 3. Connect the leads for the EDA electrodes to the BioNomadix.  
 ![BioNomadix Assembled][BioNomadixAssembled]
-4. Attach the ECG leads to the extension cord and the extension cord the ECG100C.
+4. Attach the ECG leads to the extension cord and the extension cord the ECG100C.  
 ![ECG Assembled][ECGAssembled]
 5. Connect the DB-37 ribbon the the rear port of the STP-100C and the Stim**Tracker**, using the DB-37 to DB-25 adapter, as pictured.  
 ![StimTracker Assembled][StimTrackerAssembled]  
@@ -81,7 +81,6 @@ Before beginning to attach any equipment, have the participant remove all jewelr
 6. connect the black lead to the electrode on the forefinger, and the red lead to the electrode on the middle finger.
 
 ## Collecting Data in AcqKnowledge
-:w
 
 This section assumes that you have already set up your channels exactly as described above, that you have the graph on which they are set up open already, and that your subject is connected to the equipment.
 
