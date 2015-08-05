@@ -6,3 +6,4 @@
 - Write ECG into the CIPI Protocol
 - Rewrite the BIOPAC HowTo Guide
 - Write a practical SuperLab HowTo
+- Unify the lab materials into a single document
