@@ -7,6 +7,10 @@ Last modified 5 August 2015 by Edward Hernández
 Original version "Biopac How-To" created 23 July 2013 by Drew Englehardt  
 Based on YouTube tutorials created by [BIOPAC Systems](https://www.youtube.com/user/BiopacSystems)
 
+## About this Manual
+
+This manual is meant to document the practices currently used by student researchers in the College of William & Mary's Social Networks and Political Psychology Lab. This document makes no claim to be authoritative in any way. If you would like more information about why these particular steps or taken or about the decisions which lead to this set-up, [contact Edward Hernández](mailto:ehernandez@email.wm.edu).
+
 ## Setting up the Hardware
 
 1. Connect the MP150, STP-100C, four PPGED-R units, UIM100C, and four ECG100C units together, in that order. When completed, the units should look like this.  
