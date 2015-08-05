@@ -36,8 +36,8 @@ This manual is meant to document the practices currently used by student researc
 ![Set Up Channels][SetUpChannels]
 8. Click the "Add New Module..." button on the popup window.  
 9. Find and select the "ECG100C and ECG100C-MRI" option.
-10. 
-11. Open the "Digital" tab, and select the "Acquire," "Plot," and "Value" options on channel D8. This allows the Acq*Knowledge* to recognize and incorporate signals from the Stim**Tracker** unit.
+10. Select channel 1.
+11. Open the "Digital" tab, and select the "Acquire," "Plot," and "Value" options on channel D8. This allows Acq*Knowledge* to recognize and incorporate signals from the Stim**Tracker** unit.
 12. Open the Calculate tab, and select "Acquire," "Plot," "Value," and "Rate" for Channel C0.
 13. All of the configuration up to this poing can be saved in a template file, but EDA requires per-setup calibration which prevents a template file for performing properly if it is included. Use the "Save As..." dialogue to save the graph as a .gtl template.
 14. Add the PPEGED-R module with the "Add New Module" option of the "Set Up Channels" dialogue box (see steps 7 through 9 if there is any confusion).
@@ -50,16 +50,20 @@ Be aware that there will be additional EDA calibration prompts at the start of d
 
 ## Collecting Data in AcqKnowledge
 
-1. Open Acq*Knowledge*.
-2. Make sure the MP150 unit is turned on and connected. Select the relevant MP150 unit and click OK. If the module does not appear you may need to click the REFRESH button a couple of times.
-3. We now need to create the file for our data collection. Make sure “Create and/or Record a new experiment” and “create empty graph” are selected.  
-Now you have an empty workspace within which you’ll collect the data.
-4. The next step is to set up the data collection channels. To do so, click MP150 on the top menu, and select “set up channels”. A new window will open titled “Input channels setup…” Click “Add New Module, ” scroll down to PPGED-R and select this module. This will bring up an additional window. Match the button configuration to the PPGED-R unit.  
-Read through the directions on the screens that appear after clicking OK. It will make sure that you have the BIONOMADIX unit turned on and that you have the electrode leads connected to the BIONOMADIX device. You do not need to have the electrodes themselves connected to anything at this time. After reading through these screens, the window should look like the following.
-5. In step 4 we created channels for EDA measurement (default channel A13) and PPG, or photoplethysmograph, a measure of blood flow (default channel A1). This can be seen by clicking the “View Channels…” button in the “Set Up Channels” window. We now need to create a channel to measure heart rate. To do so, click on the “Calculation” tab. Then click “Acquire,” “Plot,” and “Value” on channel C0. Next, with C0 still selected, click “Setup”  
-On the new window that appears, make sure that A1 is selected as the source channel. We are using the data collection from A1 to also calculate heart rate.  
-Match the settings on the setup channel to the ones in the image and click OK. These should be the default options. We now have our three data collection channels created and we’re ready to go. Close out of the channel set up window and return to the data collection screen. While the channels have been created, they won’t appear until data are collected.
-6. When you’re ready to begin data collection, press START in the data collection window. You will now see the channels you created separately gathering the physiological data in real time.
+This section assumes that you have already set up your channels exactly as described above and that you have the graph on which they are set up open already.
+
+1. Connect your subject. See the separate 
+2. When you’re ready to begin data collection, press "Start".
+2. You should be presented with a pop-up instructing you to calibrate the BioNomadix EDA sensor. Follow the instructions.
+3. When you click "Calibrate," collection will begin, and you should see 4 channels separately gathering data in real time.
+4. Check to make sure the waveforms look essentially like this example.
+    * If the EDA graph looks like this, there is a connection problem between
+    *
+
+Test
+
+<p><a href="https://en.wikipedia.org/wiki/File:EKG_limb_leads.png#/media/File:EKG_limb_leads.png"><img src="https://upload.wikimedia.org/wikipedia/en/f/fd/EKG_limb_leads.png" alt="EKG limb leads.png" height="1000" width="1500"></a><br>"<a href="https://en.wikipedia.org/wiki/File:EKG_limb_leads.png#/media/File:EKG_limb_leads.png">EKG limb leads</a>" by <a href="//en.wikipedia.org/wiki/User:Npatchett" title="User:Npatchett">Npatchett</a> - Created in Gimp. Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-ShareAlike 3.0">CC BY-SA 3.0</a> via <a href="//en.wikipedia.org/wiki/">Wikipedia</a>.</p>
+
 
 
 ## Data Analysis using AcqKnowledge
