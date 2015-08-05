@@ -16,36 +16,57 @@ This manual is meant to document the practices currently used by student researc
 ![Assembled MP150][MP150assembled]
 2. Connect the MP150 unit to the slot 8 of the AT-FS708 with an ethernet cable. Connect the Acq*Knowledge* computer to slot 1 using another ethernet cable and an ethernet to USB adapter.  
 ![Attached cords][AT-FS708]
-3. Connect the leads for the EDA electrodes to the BioNomadix.
-4. Attach the ECP leads to the extension cord and the extension cord the ECG100C.
-5. Set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.
+3. Connect the leads for the EDA electrodes to the BioNomadix.  
+![BioNomadix Assembled][BioNomadixAssembled]
+4. Attach the ECG leads to the extension cord and the extension cord the ECG100C.
+![ECG Assembled][ECGAssembled]
+5. Connect the DB-37 ribbon the the rear port of the STP-100C and the Stim**Tracker**, using the DB-37 to DB-25 adapter, as pictured.  
+![StimTracker Assembled][StimTrackerAssembled]  
+Connect the Stim**Tracker to the SuperLab computer via the USB cord.
+![SuperLab Connected][SuperLabAssembled]
+5. Set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.  
+![PPED-R Switches][PPEGD-RSwitches]
 6. Turn on the MP150 and AT-FS708 units.
 
 ## Setting up Channels
 
 1. Turn off the Wifi via the "Network" System Preferences tab.
 2. If you have a graph template, open it and skip to step 14. If not, continue with step 3.
-3. Open Acq*Knowledge* 4.4
-4. If the following drop down menu appears, select whatever option appears in it, except "No MP150 Hardware." If no options appear except "No MP150 Hardware" click the "Refresh Now" key until there one appears.  
-![MP150 Selection][MP150selection]
+3. Open Acq*Knowledge* 4.4.
+4. If the following pop-up appears, try hitting retry. If it returns, test all connections, make sure the wifi is off, and restart the computer.
+![No Hardware Popup][NoHardware]
 5. Open a blank file (Acq*Knowledge* calls all its files "graphs"), by selecting "Create and/or Record a new experiment" and Create empty graph."  
-![AcqKnowledge Blank Graph Creation][BlankGraphCreation]
-6. This should yield a window that looks something like this.  
+![AcqKnowledge Blank Graph Creation][BlankGraphCreation]  
+You should now see a window that looks something like this.  
 ![Blank Graph][BlankGraph]
-7. Select "Set Up Channels..." from the MP150 drop down menu.  
-![Set Up Channels][SetUpChannels]
-8. Click the "Add New Module..." button on the popup window.  
-9. Find and select the "ECG100C and ECG100C-MRI" option.
-10. Select channel 1.
-11. Open the "Digital" tab, and select the "Acquire," "Plot," and "Value" options on channel D8. This allows Acq*Knowledge* to recognize and incorporate signals from the Stim**Tracker** unit.
-12. Open the Calculate tab, and select "Acquire," "Plot," "Value," and "Rate" for Channel C0.
-13. All of the configuration up to this poing can be saved in a template file, but EDA requires per-setup calibration which prevents a template file for performing properly if it is included. Use the "Save As..." dialogue to save the graph as a .gtl template.
-14. Add the PPEGED-R module with the "Add New Module" option of the "Set Up Channels" dialogue box (see steps 7 through 9 if there is any confusion).
-15. Set the radio buttons as pictured.
-16. Follow the instructions given by the following pop-ups.
-    * 
-    *
-17. Acq*Knowledge* is now ready to collect data!  
+6. Select `ECG100C and ECG100C-MRI` from the list.  
+![Module Selection][ModuleSelection]  
+Select channel 8.
+![ECG Channel Selection][ECG Channel Selection]  
+Proceed with the following settings.
+![ECG Settings][ECGSettings]  
+You should see something like this now.  
+![Acquisition Set-Up][AcquisitionSetUp1]
+8. Navigate to the `Digital` tab, and select "Acquire," "Plot," and "Value" for channel D8. This will allow Acq*Knowledge to recognize signals from the Stim**Tracker**.  
+![Digital Channel Set-Up][DigitalSetUp]
+12. Navigate to the Calculate tab, and select "Acquire," "Plot," "Value," and "Rate" for Channel C0. This will calculate heart rate from the ECG data in real time.  
+![Calculation Channel Set-Up][CalculationSetUp]
+13. All of the configuration up to this poing can be saved in a template file, but EDA requires per-setup calibration which prevents a template file for performing properly if it is included. Use the "Save As..." dialogue to save the graph as a .gtl template.  
+![Save Template Dialogue Box][SaveTemplateDialogue]
+14. If you got to this step by opening a template file, open the "Set Up Acquisition" menu. If not, you should already have it open.  
+![Set Up Acquisition Drop Down Menu][AcquisitionDropDown]  
+Add the PPEGED-R module with the "Add New Module" button (see steps 7 through 9 if there is any confusion).  
+Set the radio buttons to match this picture. These settings should match the positions of the physical switches on the device.  
+![EDA Settings][EDASettings]  
+Follow the instructions given by the following pop-ups.
+    * At this first pop-up, make sure the BioNomadix unit is on.  
+    ![EDA Pop-Up 1][EDAPopUp1]
+    * Make sure the leads are connected to the BioNomadix, but that they are not yet clipped to electrodes.  
+    ![EDA Pop-Up 2][EDAPopUp2]
+    * Clip the leads to some electrodes, but do not attach them to a subject.  
+    ![EDA Leads Attached][BioNomadixAssembled2]
+17. Close the `Data Acquisition Settings` menu.  
+**Acq*Knowledge* is now ready to collect data!**  
 Be aware that there will be additional EDA calibration prompts at the start of data collection. These will be covered in the next section.
 
 ## Connecting a Subject to the Hardware
