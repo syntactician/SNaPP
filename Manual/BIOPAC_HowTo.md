@@ -111,7 +111,7 @@ This creates a new waveform that is a count of the number of EDA events in the c
 [Original]: Legacy/biopac_howto.docx
 [MP150assembled]: .Pictures/MP150assembled.png
 [AT-FS708]: .Pictures/AT-FS708.png
-[MP150selection]: .Pictures/MP150selection.png
+[NoHardwarePopUp]: .Pictures/NoHardwarePopUp.png
 [BlankGraphCreation]: .Pictures/BlankGraphCreation.png
 [BlankGraph]: .Pictures/BlankGraph.png
 [SetUpChannels]: .Pictures/SetUpChannels.png
