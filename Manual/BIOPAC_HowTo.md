@@ -94,6 +94,8 @@ This section assumes that you have already set up your channels exactly as descr
 
 ## Data Analysis using AcqKnowledge
 
+#### \* **Currently this section is simply a recreation of Drew's guide to analyzing EDA data. This no longer represents the practices of the SNaPP Lab and will be renovated accordingly.** \*
+
 1. To analyze EDA data, first filter any high frequency noise. Select Transform on the top menu, then filter, FIR, low pass. Define the filter with the following settings.
 2. Select the "Locate SCRs" option in the "Electrodermal Activity" menu.
 3. Choose to construct a new Tonic EDA channel from the Phasic EDA channel you collected.
