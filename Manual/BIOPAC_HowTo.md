@@ -41,7 +41,7 @@ You should now see a window that looks something like this.
 ![Module Set- Up][ModuleSetUp]  
 6. Select "ECG100C and ECG100C-MRI" from the list. Select channel 8.  
 ![ECG Channel Selection][ECGChannelSettings]  
-Proceed with the following settings.
+Proceed with the following settings.  
 ![ECG Settings][ECGSettings]  
 You should see something like this now.  
 ![Acquisition Set-Up][AcquisitionSetUp1]
@@ -118,6 +118,13 @@ This creates a new waveform that is a count of the number of EDA events in the c
 [ECGSettings]: .Pictures/ECGSettings.png
 [AcquisitionSetUp1]: .Pictures/AcquisitionSetUp1.png
 [DigitalSetUp]: .Pictures/DigitalSetUp.png
-
+[CalculateSetUpPopUp]: .Pictures/CalculateSetUpPopUp.png
+[CalculateSetUp]: .Pictures/CalculateSetUp.png
+[SaveTemplateDialogue]: .Pictures/SaveTemplateDialogue.png
+[AcquisitionDropDown]: .Pictures/AcquisitionDropDown.png
+[EDASettings]: .Pictures/EDASettings.png
+[EDAPopUp1]: .Pictures/EDAPopUp1.png
+[EDAPopUp2]: .Pictures/EDAPopUp2.png
+[BioNomadixAssembled]: .Pictures/BioNomadixAssembled2.png
 [BlankGraph]: .Pictures/BlankGraph.png
 [SetUpChannels]: .Pictures/SetUpChannels.png
