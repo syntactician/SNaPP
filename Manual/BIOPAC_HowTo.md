@@ -73,10 +73,10 @@ Be aware that there will be additional EDA calibration prompts at the start of d
 
 Before beginning to attach any equipment, have the participant remove all jewelry on their hands, arms, and ankles, and rinse their hands with water (do not have them wash with soap).
 
-1. Place cloth electrodes on the insides of both of the participant's ankles, avoiding hair if possible.
+1. Place cloth [EL504](http://www.biopac.com/disposable-cloth-electrode-30) electrodes on the insides of both of the participant's ankles, avoiding hair if possible.
 2. Place another cloth electrode on the inside of the participant's right forearm, approximately equidistant from the wrist and elbow.
 3. Connect the electrode on the forearm to the white lead, attaching the clip to the metal post on the electrode. Connect the red lead to the left ankle and the black lead to the right ankle.
-4. Place foam electrodes on the fingertips of the index and middle fingers of the participant's non-dominant hand, rubbing them in to ensure good contact.
+4. Place foam [EL507](https://www.biopac.com/disposable-electrodermal-electrode-100-education) electrodes on the fingertips of the index and middle fingers of the participant's non-dominant hand, rubbing them in to ensure good contact.
 5. Wrap the BioNomadix unit's velcro strap around the wrist of the participant's non-dominant hand.
 6. connect the black lead to the electrode on the forefinger, and the red lead to the electrode on the middle finger.
 
