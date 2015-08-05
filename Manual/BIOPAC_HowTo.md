@@ -1,10 +1,9 @@
-
-# SNaPP Lab Biopac Manual
+# SNaPP Lab BIOPAC Manual
 
 Created 5 August 2015 by Edward Hernández  
 Last modified 5 August 2015 by Edward Hernández  
 
-Original version "[Biopac How-To][Original]" created 23 July 2013 by Drew Englehardt  
+Original version [Biopac How-To][Original] created 23 July 2013 by Drew Englehardt  
 Based on [YouTube tutorials](https://www.youtube.com/user/BiopacSystems) created by BIOPAC Systems
 
 ## About this Manual
@@ -15,9 +14,12 @@ This manual is meant to document the practices currently used by student researc
 
 1. Connect the MP150, STP-100C, four PPGED-R units, UIM100C, and four ECG100C units together, in that order. When completed, the units should look like this.  
 ![Assembled MP150][MP150assembled]
-2. Take one of the yellow Ethernet cables and connect it to the back of the MP150 unit. Connect the other end to the BOX in slot 1. Take the other yellow Ethernet cable and connect it to slot 8. This cable will connect to the computer running AcqKnowledge.  
+2. Connect the MP150 unit to the slot 8 of the AT-FS708 with an ethernet cable. Connect the Acq*Knowledge* computer to slot 1 using another ethernet cable and an ethernet to USB adapter.  
 ![Attached cords][AT-FS708]
-3. To set up the BIONOMADIX, connect the lead for the heart rate measurement to the PPG input. Connect the leads for the EDA electrodes to the EDA input. 
+3. Connect the leads for the EDA electrodes to the BioNomadix.
+4. Attach the ECP leads to the extension cord and the extension cord the ECG100C.
+5. Set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.
+6. Turn on the MP150 and AT-FS708 units.
 
 ## Setting up Channels
 
@@ -29,7 +31,8 @@ This manual is meant to document the practices currently used by student researc
 ![AcqKnowledge Blank Graph Creation][BlankGraphCreation]
 5. This should yield a window that looks something like this.  
 ![Blank Graph][BlankGraph]
-6. Select the MP150 dropdown
+6. Select "Set Up Channels..." from the MP150 drop down menu.  
+![Set Up Channels][SetUpChannels]
 
 ## Collecting Data in AcqKnowledge
 
@@ -63,4 +66,4 @@ This creates a new waveform that is a count of the number of EDA events in the c
 [MP150selection]: .Pictures/MP150selection.png
 [BlankGraphCreation]: .Pictures/BlankGraphCreation.png
 [BlankGraph]: .Pictures/BlankGraph.png
-[MenuBar]: .Pictures/MenuBar.png
+[SetUpChannels]: .Pictures/SetUpChannels.png
