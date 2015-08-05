@@ -39,7 +39,7 @@ Connect the Stim**Tracker to the SuperLab computer via the USB cord.
 ![AcqKnowledge Blank Graph Creation][BlankGraphCreation]  
 You should now see a window that looks something like this.  
 ![Blank Graph][BlankGraph]
-6. Select `ECG100C and ECG100C-MRI` from the list.  
+6. Select "ECG100C and ECG100C-MRI" from the list.  
 ![Module Selection][ModuleSelection]  
 Select channel 8.
 ![ECG Channel Selection][ECG Channel Selection]  
@@ -47,9 +47,9 @@ Proceed with the following settings.
 ![ECG Settings][ECGSettings]  
 You should see something like this now.  
 ![Acquisition Set-Up][AcquisitionSetUp1]
-8. Navigate to the `Digital` tab, and select "Acquire," "Plot," and "Value" for channel D8. This will allow Acq*Knowledge to recognize signals from the Stim**Tracker**.  
+8. Navigate to the "Digital" tab, and select "Acquire," "Plot," and "Value" for channel D8. This will allow Acq*Knowledge to recognize signals from the Stim**Tracker**.  
 ![Digital Channel Set-Up][DigitalSetUp]
-12. Navigate to the Calculate tab, and select "Acquire," "Plot," "Value," and "Rate" for Channel C0. This will calculate heart rate from the ECG data in real time.  
+12. Navigate to the "Calculate" tab, and select "Acquire," "Plot," "Value," and "Rate" for Channel C0. This will calculate heart rate from the ECG data in real time.  
 ![Calculation Channel Set-Up][CalculationSetUp]
 13. All of the configuration up to this poing can be saved in a template file, but EDA requires per-setup calibration which prevents a template file for performing properly if it is included. Use the "Save As..." dialogue to save the graph as a .gtl template.  
 ![Save Template Dialogue Box][SaveTemplateDialogue]
@@ -65,7 +65,7 @@ Follow the instructions given by the following pop-ups.
     ![EDA Pop-Up 2][EDAPopUp2]
     * Clip the leads to some electrodes, but do not attach them to a subject.  
     ![EDA Leads Attached][BioNomadixAssembled2]
-17. Close the `Data Acquisition Settings` menu.  
+17. Close the "Data Acquisition Settings" menu.  
 **Acq*Knowledge* is now ready to collect data!**  
 Be aware that there will be additional EDA calibration prompts at the start of data collection. These will be covered in the next section.
 
