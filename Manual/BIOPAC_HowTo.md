@@ -114,7 +114,7 @@ This creates a new waveform that is a count of the number of EDA events in the c
 [NoHardwarePopUp]: .Pictures/NoHardwarePopUp.png
 [BlankGraphCreation]: .Pictures/BlankGraphCreation.png
 [ModuleSetUp]: .Pictures/ModuleSetUp.png
-[ECGChannelSelection]: .Pictures/ECGChannelSelection.png
+[ECGChannelSettings]: .Pictures/ECGChannelSelection.png
 [ECGSettings]: .Pictures/ECGSettings.png
 [AcquisitionSetUp1]: .Pictures/AcquisitionSetUp1.png
 [DigitalSetUp]: .Pictures/DigitalSetUp.png
