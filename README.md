@@ -2,7 +2,7 @@
 
 #### Todo:
 - Finish this README
-- Create and integrate Acq*Knawledge* templates
+- Create and integrate Acq*Knowledge* templates
 - Write ECG into the CIPI Protocol
 - Rewrite the BIOPAC HowTo Guide
 - Write a practical SuperLab HowTo
