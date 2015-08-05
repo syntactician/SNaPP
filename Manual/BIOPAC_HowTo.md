@@ -38,11 +38,9 @@ Connect the Stim**Tracker to the SuperLab computer via the USB cord.
 5. Open a blank file (Acq*Knowledge* calls all its files "graphs"), by selecting "Create and/or Record a new experiment" and Create empty graph."  
 ![AcqKnowledge Blank Graph Creation][BlankGraphCreation]  
 You should now see a window that looks something like this.  
-![Blank Graph][BlankGraph]
-6. Select "ECG100C and ECG100C-MRI" from the list.  
-![Module Selection][ModuleSelection]  
-Select channel 8.
-![ECG Channel Selection][ECG Channel Selection]  
+![Module Set- Up][ModuleSetUp]  
+6. Select "ECG100C and ECG100C-MRI" from the list. Select channel 8.  
+![ECG Channel Selection][ECGChannelSettings]  
 Proceed with the following settings.
 ![ECG Settings][ECGSettings]  
 You should see something like this now.  
@@ -50,7 +48,8 @@ You should see something like this now.
 8. Navigate to the "Digital" tab, and select "Acquire," "Plot," and "Value" for channel D8. This will allow Acq*Knowledge to recognize signals from the Stim**Tracker**.  
 ![Digital Channel Set-Up][DigitalSetUp]
 12. Navigate to the "Calculate" tab, and select "Acquire," "Plot," "Value," and "Rate" for Channel C0. This will calculate heart rate from the ECG data in real time.  
-![Calculation Channel Set-Up][CalculationSetUp]
+![Calculation Channel Setup Pop-Up][CalculateSetUpPopUp]  
+![Calculation Channel Set-Up][CalculateSetUp]
 13. All of the configuration up to this poing can be saved in a template file, but EDA requires per-setup calibration which prevents a template file for performing properly if it is included. Use the "Save As..." dialogue to save the graph as a .gtl template.  
 ![Save Template Dialogue Box][SaveTemplateDialogue]
 14. If you got to this step by opening a template file, open the "Set Up Acquisition" menu. If not, you should already have it open.  
@@ -65,7 +64,8 @@ Follow the instructions given by the following pop-ups.
     ![EDA Pop-Up 2][EDAPopUp2]
     * Clip the leads to some electrodes, but do not attach them to a subject.  
     ![EDA Leads Attached][BioNomadixAssembled2]
-17. Close the "Data Acquisition Settings" menu.  
+17. Close the "Data Acquisition Settings" menu.  You should see a blank graph.  
+![Blank Graph][BlankGraph]
 **Acq*Knowledge* is now ready to collect data!**  
 Be aware that there will be additional EDA calibration prompts at the start of data collection. These will be covered in the next section.
 
@@ -113,5 +113,11 @@ This creates a new waveform that is a count of the number of EDA events in the c
 [AT-FS708]: .Pictures/AT-FS708.png
 [NoHardwarePopUp]: .Pictures/NoHardwarePopUp.png
 [BlankGraphCreation]: .Pictures/BlankGraphCreation.png
+[ModuleSetUp]: .Pictures/ModuleSetUp.png
+[ECGChannelSelection]: .Pictures/ECGChannelSelection.png
+[ECGSettings]: .Pictures/ECGSettings.png
+[AcquisitionSetUp1]: .Pictures/AcquisitionSetUp1.png
+[DigitalSetUp]: .Pictures/DigitalSetUp.png
+
 [BlankGraph]: .Pictures/BlankGraph.png
 [SetUpChannels]: .Pictures/SetUpChannels.png
