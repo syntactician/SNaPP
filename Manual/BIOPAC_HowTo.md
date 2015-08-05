@@ -13,7 +13,7 @@ This manual is meant to document the practices currently used by student researc
 ## Setting up the Hardware
 
 1. Connect the MP150, STP-100C, four PPGED-R units, UIM100C, and four ECG100C units together, in that order. When completed, the units should look like this.  
-![Assembled MP150][MP150assembled]
+![Assembled MP150][MP150Assembled]
 2. Connect the MP150 unit to the slot 8 of the AT-FS708 with an ethernet cable. Connect the Acq*Knowledge* computer to slot 1 using another ethernet cable and an ethernet to USB adapter.  
 ![Attached cords][AT-FS708]
 3. Connect the leads for the EDA electrodes to the BioNomadix.  
@@ -81,6 +81,7 @@ Before beginning to attach any equipment, have the participant remove all jewelr
 6. connect the black lead to the electrode on the forefinger, and the red lead to the electrode on the middle finger.
 
 ## Collecting Data in AcqKnowledge
+:w
 
 This section assumes that you have already set up your channels exactly as described above, that you have the graph on which they are set up open already, and that your subject is connected to the equipment.
 
@@ -111,8 +112,9 @@ This creates a new waveform that is a count of the number of EDA events in the c
 7. Finally, the EDA events are marked as below. The beginning and end of the SCR event are marked by ( and ) respectively. The peak event response is marked by a water droplet, like below.
 
 [Original]: Legacy/biopac_howto.docx
-[MP150assembled]: .Pictures/MP150assembled.png
+[MP150Assembled]: .Pictures/MP150Assembled.jpg
 [AT-FS708]: .Pictures/AT-FS708.png
+[BioNomadixAssembled]: .Pictures/BioNomadixAssembled.jpg
 [NoHardwarePopUp]: .Pictures/NoHardwarePopUp.png
 [BlankGraphCreation]: .Pictures/BlankGraphCreation.png
 [ModuleSetUp]: .Pictures/ModuleSetUp.png
@@ -127,6 +129,6 @@ This creates a new waveform that is a count of the number of EDA events in the c
 [EDASettings]: .Pictures/EDASettings.png
 [EDAPopUp1]: .Pictures/EDAPopUp1.png
 [EDAPopUp2]: .Pictures/EDAPopUp2.png
-[BioNomadixAssembled]: .Pictures/BioNomadixAssembled2.png
+[BioNomadixAssembled2]: .Pictures/BioNomadixAssembled2.png
 [BlankGraph]: .Pictures/BlankGraph.png
 [SetUpChannels]: .Pictures/SetUpChannels.png
