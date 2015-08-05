@@ -26,7 +26,7 @@ This manual is meant to document the practices currently used by student researc
 1. Turn off the Wifi via the "Network" System Preferences tab.
 2. If you have a graph template, open it and skip to step 14. If not, continue with step 3.
 3. Open Acq*Knowledge* 4.4
-4. If the following drop down menu appears, select whatever option appears. If no options appear except "No MP150 Hardware" click the "Refresh Now" key until there one appears.  
+4. If the following drop down menu appears, select whatever option appears in it, except "No MP150 Hardware." If no options appear except "No MP150 Hardware" click the "Refresh Now" key until there one appears.  
 ![MP150 Selection][MP150selection]
 5. Open a blank file (Acq*Knowledge* calls all its files "graphs"), by selecting "Create and/or Record a new experiment" and Create empty graph."  
 ![AcqKnowledge Blank Graph Creation][BlankGraphCreation]
