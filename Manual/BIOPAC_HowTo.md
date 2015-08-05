@@ -48,27 +48,36 @@ This manual is meant to document the practices currently used by student researc
 17. Acq*Knowledge* is now ready to collect data!  
 Be aware that there will be additional EDA calibration prompts at the start of data collection. These will be covered in the next section.
 
+## Connecting a Subject to the Hardware
+
+Before beginning to attach any equipment, have the participant remove all jewelry on their hands, arms, and ankles, and rinse their hands with water (do not have them wash with soap).
+
+1. Place cloth electrodes on the insides of both of the participant's ankles, avoiding hair if possible.
+2. Place another cloth electrode on the inside of the participant's right forearm, approximately equidistant from the wrist and elbow.
+3. Connect the electrode on the forearm to the white lead, attaching the clip to the metal post on the electrode. Connect the red lead to the left ankle and the black lead to the right ankle.
+4. Place foam electrodes on the fingertips of the index and middle fingers of the participant's non-dominant hand, rubbing them in to ensure good contact.
+5. Wrap the BioNomadix unit's velcro strap around the wrist of the participant's non-dominant hand.
+6. connect the black lead to the electrode on the forefinger, and the red lead to the electrode on the middle finger.
+
 ## Collecting Data in AcqKnowledge
 
-This section assumes that you have already set up your channels exactly as described above and that you have the graph on which they are set up open already.
+This section assumes that you have already set up your channels exactly as described above, that you have the graph on which they are set up open already, and that your subject is connected to the equipment.
 
-1. Connect your subject. See the separate 
 2. When you’re ready to begin data collection, press "Start".
 2. You should be presented with a pop-up instructing you to calibrate the BioNomadix EDA sensor. Follow the instructions.
 3. When you click "Calibrate," collection will begin, and you should see 4 channels separately gathering data in real time.
 4. Check to make sure the waveforms look essentially like this example.
-    * If the EDA graph looks like this, there is a connection problem between
-    *
-
-Test
-
-<p><a href="https://en.wikipedia.org/wiki/File:EKG_limb_leads.png#/media/File:EKG_limb_leads.png"><img src="https://upload.wikimedia.org/wikipedia/en/f/fd/EKG_limb_leads.png" alt="EKG limb leads.png" height="1000" width="1500"></a><br>"<a href="https://en.wikipedia.org/wiki/File:EKG_limb_leads.png#/media/File:EKG_limb_leads.png">EKG limb leads</a>" by <a href="//en.wikipedia.org/wiki/User:Npatchett" title="User:Npatchett">Npatchett</a> - Created in Gimp. Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-ShareAlike 3.0">CC BY-SA 3.0</a> via <a href="//en.wikipedia.org/wiki/">Wikipedia</a>.</p>
-
-
+    * If the EDA graph looks like this, there is a connection problem between the electrodes and the fingertips. Rub them in to try to improve the connection.
+    * If the ECG graph looks any way other than this, there is probably something wrong, but we don't yet know how to fix it.
+    * The D8 channel should look completely flat unless you have a stimulus playing in SuperLab. When a stimulus is playing, it may look something like this.
 
 ## Data Analysis using AcqKnowledge
 
-1. To analyze EDA data, first filter any high frequency noise. Select Transform on the top menu, then filter, FIR, low pass. I’ve used the following settings to define the filter.
+1. To analyze EDA data, first filter any high frequency noise. Select Transform on the top menu, then filter, FIR, low pass. Define the filter with the following settings.
+2. Select the "Locate SCRs" option in the "Electrodermal Activity" menu.
+3. Choose to construct a new Tonic EDA channel from the Phasic EDA channel you collected.
+    * This should take some time, but when it is completed, the graph ought to look like this, with a new line and with events marked.
+
 2. To count the number of EDA events, first create a copy of the EDA channel by going to Edit, then “Duplicate Waveform”.
 3. Next, select the duplicate EDA waveform. Select transform, from the top menu, math functions, threshold. For the “lower threshold” input 0.05, and for the “upper threshold” input 0.051. These settings will detect events that are 0.05 microsiemens or larger and will display the result as a series of spikes that meet the response criteria of being 0.05 microsiemens or larger. 
 4. Then, go to “Analysis” and select “Find Rate.”  
