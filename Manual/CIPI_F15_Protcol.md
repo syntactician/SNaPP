@@ -10,7 +10,7 @@
 
 #### Always be aware:
 
-1. Be exceptionally careful with the equipment in the Data Cave -- it is very expensive. Do not eat or drink in this room.
+1. Be exceptionally careful with the equipment in the Data Cave – it is very expensive. Do not eat or drink in this room.
 2. Temperature control is key to psychophysiological research. At the first sign of trouble, fill out a maintenance request here: [http://www.wm.edu/offices/facilities/workorders](http://www.wm.edu/offices/facilities/workorders)
 3. Williamsburg is prone to thunderstorms, so keep an eye on the weather report. If there's a high chance of a storm, be prepared for the participant to cancel or to notify the participant if the power goes out (this is especially a concern when proctoring non-students}.
 4. The bathrooms leave something to be desired. Make sure that the lights are on and there aren't any dead cockroaches or other disgusting things.
@@ -68,16 +68,16 @@
 
 1. Follow the items on the seperate checklist that is provided.
 2. That checklist is reproduced and elaborated here:
-    1. **Arrival time if waiting** -- If you are unable to immediately begin proctoring, write down the participant's time of arrival on the daily participant list. Do not proceed with the rest of the checklist until you are ready to proctor the full lab session for the participant.
-    2. **Informed consent form** -- Have the subject sign the form, and put it in the manila folder. While they do, give them an overview:
-        a. **hooking up to equipment** -- Explain that we’ll be attaching a couple of electrodes to their fingers, the removal of which isn’t any worse than a Band-Aid.
-        b. **watch videos** -- Explain they'll be shown a few short video clips (informed consent may have wording about the video clips being potentially distressing, but if they pick up on this, ensure them that we haven’t had anyone have an issue with the videos yet).
-        c. **answer survey questions** -- Explain that they'll be answering some survey questions.
-    3. **Chewing gum** -- Ask if they're chewing gum, and if so, have them dispose of it.
-    4. **Cell phone** -- If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage out data.
-    5. **Jewelry/watch removal** -- Ask the to remove all jewerly on their wrists and hands.
-    6. **Rinse hands** -- Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
-    7. **Mental notes for lab log** -- If there are any abnormalities, or the participant seems agitated, or out of breath, or nots that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
+    1. **Arrival time if waiting** – If you are unable to immediately begin proctoring, write down the participant's time of arrival on the daily participant list. Do not proceed with the rest of the checklist until you are ready to proctor the full lab session for the participant.
+    2. **Informed consent form** – Have the subject sign the form, and put it in the manila folder. While they do, give them an overview:
+        a. **hooking up to equipment** – Explain that we’ll be attaching a couple of electrodes to their fingers, the removal of which isn’t any worse than a Band-Aid.
+        b. **watch videos** – Explain they'll be shown a few short video clips (informed consent may have wording about the video clips being potentially distressing, but if they pick up on this, ensure them that we haven’t had anyone have an issue with the videos yet).
+        c. **answer survey questions** – Explain that they'll be answering some survey questions.
+    3. **Chewing gum** – Ask if they're chewing gum, and if so, have them dispose of it.
+    4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage out data.
+    5. **Jewelry/watch removal** – Ask the to remove all jewerly on their wrists and hands.
+    6. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
+    7. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or nots that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
 
 #### Starting the Lab Session:
 
@@ -92,7 +92,40 @@
 
 #### Collecting Data:
 
-# FINISH ME
+Unless Acq*Knowledge* is already up and ready to go at this point (as it should be for first participant of the day), resets the equipment and open a new graph in Acq*Knowledge* (see earlier sections for more detailed instructions).
+Bring up the lab log side-by-side with the Acq*Knowledge* graph.
+press START to begin the Acq*Knowledge* recording before starting SuperLab.
+Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly.
+After the first set of videos ends and the instruction screen appears, peek at the edges of the blinds to make sure that the participant is answering the Qualtrics survey on the laptop.  When they are finished with the survey (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
+Repeat step 4 after the second set of videos
+7. **DISCUSSION STIMULUS**
+    a. The participant thinks that they are preparing for a political conversation. You need to keep your eye on the stimulus and give them through to the start of the final blank screen to prepare.
+    b. Once the stimulus switches to the blank screen, knock on the door, enter the room and close door after you so no one overhears, and perform the deception according to the following script:
+        * So... it turns out that your discussion partner never showed up.
+        * Normally, the discussion is the last part of the lab session, but we did this study last year, and unfortunately we had enough no-shows that we knew we needed a backup plan going forward.
+        * So instead of having the discussion, the last part of your lab session will be this extra survey I’m going to pull up on the laptop.
+    c. Leave the room for them to complete the survey.
+8. Between lying and debriefing, while the participant is doing the last Qualtrics section:
+9. Save the Acq*Knowledge* graph as both `XXXXX(problem).acq` and `XXXXX(problem).txt`
+    * `XXXXX` should be replaced by the participant’s ID number.
+    * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `XXXXX.acq`, whereas one in which the PPG failed might look like `XXXXXbadppg.acq`.
+    * The file should be saved as both a .acq and .txt file (these are options in the save dialogue box).
+10. When the old participant is finished with Qualtrics and has rung the bell, enter the subject room and turn the light on.
+Verify lab survey submission.
+Remove the physiological device from the participant’s hand
+Throw electrodes away
+Offer the participant a wipe to clean the gel off their hand
+Turn the sensor off with the switch on the side
+Walk the participant to the debriefing room.
+Debrief the participant 
+Give them a debriefing form to read. Do not offer them a copy, but they can take one if they request one. Implore them not to tell anyone about the deception.
+Reference the Honor Code: e.g. “Building and maintaining a community of trust is one of the stated goals of the Honor Code. We are trusting you not to reveal the deception about the “discussion” to others, especially those who may take part in the Omnibus Project after you, as this is crucial to the eventual success of this study.”
+Ask them if they would like a copy of the informed consent to take home (blank copies are in the manila folder on the front desk, or in the data cave).
+Let subjects know that at this point in time they can ask any questions about the experiment that they have just completed.
+If there are questions, just try and answer them to the best of your ability but remain as vague as possible. For people who are really pushing to have questions answered that you don’t feel comfortable with, refer them to the contact information at the bottom of the debriefing form.
+Thank them for their time and for participating in the Omnibus Project.
+Check if the next participant has already arrived before leaving debriefing room, just so nothing gets said after leaving the debriefing room.
+
 
 #### Between Participants:
 
