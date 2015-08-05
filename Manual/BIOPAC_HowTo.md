@@ -1,6 +1,6 @@
 # SNaPP Lab BIOPAC Manual
 
-Created 5 August 2015 by Edward Hernández  
+Created 4 August 2015 by Edward Hernández  
 Last modified 5 August 2015 by Edward Hernández  
 
 Original version [Biopac How-To][Original] created 23 July 2013 by Drew Englehardt  
