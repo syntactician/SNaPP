@@ -24,15 +24,29 @@ This manual is meant to document the practices currently used by student researc
 ## Setting up Channels
 
 1. Turn off the Wifi via the "Network" System Preferences tab.
-2. Open Acq*Knowledge* 4.4
-3. If the following drop down menu appears, select whatever option appears. If no options appear except "No MP150 Hardware" click the "Refresh Now" key until there one appears.  
+2. If you have a graph template, open it and skip to step 14. If not, continue with step 3.
+3. Open Acq*Knowledge* 4.4
+4. If the following drop down menu appears, select whatever option appears. If no options appear except "No MP150 Hardware" click the "Refresh Now" key until there one appears.  
 ![MP150 Selection][MP150selection]
-4. Open a blank file (Acq*Knowledge* calls all its files "graphs"), by selecting "Create and/or Record a new experiment" and Create empty graph."  
+5. Open a blank file (Acq*Knowledge* calls all its files "graphs"), by selecting "Create and/or Record a new experiment" and Create empty graph."  
 ![AcqKnowledge Blank Graph Creation][BlankGraphCreation]
-5. This should yield a window that looks something like this.  
+6. This should yield a window that looks something like this.  
 ![Blank Graph][BlankGraph]
-6. Select "Set Up Channels..." from the MP150 drop down menu.  
+7. Select "Set Up Channels..." from the MP150 drop down menu.  
 ![Set Up Channels][SetUpChannels]
+8. Click the "Add New Module..." button on the popup window.  
+9. Find and select the "ECG100C and ECG100C-MRI" option.
+10. 
+11. Open the "Digital" tab, and select the "Acquire," "Plot," and "Value" options on channel D8. This allows the Acq*Knowledge* to recognize and incorporate signals from the Stim**Tracker** unit.
+12. Open the Calculate tab, and select "Acquire," "Plot," "Value," and "Rate" for Channel C0.
+13. All of the configuration up to this poing can be saved in a template file, but EDA requires per-setup calibration which prevents a template file for performing properly if it is included. Use the "Save As..." dialogue to save the graph as a .gtl template.
+14. Add the PPEGED-R module with the "Add New Module" option of the "Set Up Channels" dialogue box (see steps 7 through 9 if there is any confusion).
+15. Set the radio buttons as pictured.
+16. Follow the instructions given by the following pop-ups.
+    * 
+    *
+17. Acq*Knowledge* is now ready to collect data!  
+Be aware that there will be additional EDA calibration prompts at the start of data collection. These will be covered in the next section.
 
 ## Collecting Data in AcqKnowledge
 
