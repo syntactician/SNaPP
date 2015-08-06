@@ -100,9 +100,8 @@ This section assumes that you have already set up your channels exactly as descr
 
 1. To analyze EDA data, first filter any high frequency noise. Select Transform on the top menu, then filter, FIR, low pass. Define the filter with the following settings.
 2. Select the "Locate SCRs" option in the "Electrodermal Activity" menu.
-3. Choose to construct a new Tonic EDA channel from the Phasic EDA channel you collected.
+3. Choose to construct a new Tonic EDA channel from the Phasic EDA channel you collected.  
     * This should take some time, but when it is completed, the graph ought to look like this, with a new line and with events marked.
-
 2. To count the number of EDA events, first create a copy of the EDA channel by going to Edit, then “Duplicate Waveform”.
 3. Next, select the duplicate EDA waveform. Select transform, from the top menu, math functions, threshold. For the “lower threshold” input 0.05, and for the “upper threshold” input 0.051. These settings will detect events that are 0.05 microsiemens or larger and will display the result as a series of spikes that meet the response criteria of being 0.05 microsiemens or larger. 
 4. Then, go to “Analysis” and select “Find Rate.”  
