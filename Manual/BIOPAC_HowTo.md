@@ -24,7 +24,6 @@ This manual is meant to document the practices currently used by student researc
 5. Connect the DB-37 ribbon the the rear port of the STP-100C and the Stim**Tracker**, using the DB-37 to DB-25 adapter, as pictured.  
 ![StimTracker Assembled][StimTrackerAssembled]  
 Connect the Stim**Tracker to the SuperLab computer via the USB cord.  
-![SuperLab Connected][SuperLabAssembled]
 5. Set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.  
 ![PPED-R Switches][PPEGD-RSwitches]  
 ![ECG100C Switches][ECG100CSwitches]  
