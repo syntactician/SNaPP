@@ -49,7 +49,7 @@
     2. If the clean water tank is empty, use a rolling chair to move the tank to the water bottle refill station down the hallway, and use the funnel and attached tube to refill.
 3. Turn on the sink. To do this, open the doors underneath, and flip up the switch on the upper right-hand inner wall of the sink. The pump will make a loud noise at first, this is normal.
     * Additionally, the sink will need to be turned off at the end of each day.
-4. Set up the Acq*Knowledge* file by following the instructions in the BIOPAC How-To manual up through ~~Step 6 on pg. 6 of that guide~~.
+4. Open the Acq*Knowledge* graph template file.
 5. Load the stimulus presentation in SuperLab.
     1. When prompted, enter participant's party ID by pressing the “d” key for Democrat, “r” for Republican, ~~or “i” for true Independents~~. Use lowercase letters.
     2. On the next screen, enter their treatment condition (by pressing the number key corresponding to their condition number).
@@ -70,7 +70,7 @@
 2. That checklist is reproduced and elaborated here:
     1. **Arrival time if waiting** – If you are unable to immediately begin proctoring, write down the participant's time of arrival on the daily participant list. Do not proceed with the rest of the checklist until you are ready to proctor the full lab session for the participant.
     2. **Informed consent form** – Have the subject sign the form, and put it in the manila folder. While they do, give them an overview:
-        a. **hooking up to equipment** – Explain that we’ll be attaching a couple of electrodes to their fingers, the removal of which isn’t any worse than a Band-Aid.
+        a. **hooking up to equipment** – Explain that we’ll be attaching a couple of electrodes to their fingers, wrist, and ankles, the removal of which isn’t any worse than a Band-Aid.
         b. **watch videos** – Explain they'll be shown a few short video clips (informed consent may have wording about the video clips being potentially distressing, but if they pick up on this, ensure them that we haven’t had anyone have an issue with the videos yet).
         c. **answer survey questions** – Explain that they'll be answering some survey questions.
     3. **Chewing gum** – Ask if they're chewing gum, and if so, have them dispose of it.
@@ -87,50 +87,69 @@
     b. Ask them to answer the initial survey questions while leaving their non-dominant hand on the armrest (for practice).
     c. Instruct them to close the laptop and ring the bell when they have completed the survey 	questions.
 3. Leave room while participant completes first questions.
+4. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
 4. After the bell is rung, turn off the lights in the datacave, and re-enter the subject room.
-5. Hand the subject headphones
+5. Administer the sensors to the participant according to the instructions provided in the BIOPAC Manual.
+    a. Attach the BioNomadix unit to the wrist **opposite** the participant's dominant hand.
+    b. EL507 electrodes are to connect the BioNomadix unit's leads to the tips of the index and middle fingers.
+        * Black – index
+	* Red – middle
+    c. Cloth EL504 electrodes are to connect the ECG leads to the ankles and the right forearm.
+	* White – right arm
+	* Red – left ankle
+	* Black – right ankle
+6. Give the participant a brief overview of what they will be asked to do:
+    a. Inform them that videos and instructions will be presented on the monitor.
+    b. Make sure they understand that there will be blank screens in between these presentations.
+    c. Instruct them to sit back, relax, and limit their motion as much as possible *including while nothing is on screen*.
+    d. Instruct them to ring the bell if they have questions.
+7. Remind the participant that they can stop their participation at any time.
+8. Turn off the light and leave the room.
 
 #### Collecting Data:
 
-1. Unless Acq*Knowledge* is already up and ready to go at this point (as it should be for first participant of the day), resets the equipment and open a new graph in Acq*Knowledge* (see earlier sections for more detailed instructions).
-2. Bring up the lab log side-by-side with the Acq*Knowledge* graph.
-3. press START to begin the Acq*Knowledge* recording before starting SuperLab.
-4. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly.
-5. After the first set of videos ends and the instruction screen appears, peek at the edges of the blinds to make sure that the participant is answering the Qualtrics survey on the laptop.  When they are finished with the survey (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
-6. Repeat step 4 after the second set of videos
-7. **DISCUSSION STIMULUS**
-    a. The participant thinks that they are preparing for a political conversation. You need to keep your eye on the stimulus and give them through to the start of the final blank screen to prepare.
-    b. Once the stimulus switches to the blank screen, knock on the door, enter the room and close door after you so no one overhears, and perform the deception according to the following script:
+Acq*Knowledge* should already be up and ready to collect data. If it is not, you must disconnect the BioNomadix unit from the participant and set it up now before you proceed.
+
+1. Bring up the lab log side-by-side with the Acq*Knowledge* graph.
+2. press START to begin the Acq*Knowledge* recording before starting SuperLab.
+3. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly.
+4. After the first set of videos ends and the instruction screen appears, peek through the blinds to make sure that the participant is answering the Qualtrics survey on the laptop. When they are finished (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
+5. Repeat step 4 after the second set of videos
+6. **DISCUSSION STIMULUS**
+    a. The participant thinks that they are preparing for a political conversation. Give them until the end of the stimulus.
+    b. After the stimulus, knock on the door, enter the room, close the door after you, and perform the deception according to the following script:
         * So... it turns out that your discussion partner never showed up.
         * Normally, the discussion is the last part of the lab session, but we did this study last year, and unfortunately we had enough no-shows that we knew we needed a backup plan going forward.
         * So instead of having the discussion, the last part of your lab session will be this extra survey I’m going to pull up on the laptop.
-    c. Leave the room for them to complete the survey.
+    c. Pull up the final survey.
+    d. Leave the room for them to complete the survey.
 8. Between lying and debriefing, while the participant is doing the last Qualtrics section:
-9. Save the Acq*Knowledge* graph as both `XXXXX(problem).acq` and `XXXXX(problem).txt`
-    * `XXXXX` should be replaced by the participant’s ID number.
-    * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `XXXXX.acq`, whereas one in which the PPG failed might look like `XXXXXbadppg.acq`.
-    * The file should be saved as both a .acq and .txt file (these are options in the save dialogue box).
+    a. Save the Acq*Knowledge* graph as both `XXXXX(problem).acq` and `XXXXX(problem).txt`
+        * `XXXXX` should be replaced by the participant’s ID number.
+        * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `XXXXX.acq`, whereas one in which the PPG failed might look like `XXXXXbadppg.acq`.
+        * The file should be saved as both a .acq and .txt file (these are options in the save dialogue box).
+    b. If there is time, prepare a new graph for the next participant.
 10. When the old participant is finished with Qualtrics and has rung the bell, enter the subject room and turn the light on.
-Verify lab survey submission.
-Remove the physiological device from the participant’s hand
-Throw electrodes away
-Offer the participant a wipe to clean the gel off their hand
-Turn the sensor off with the switch on the side
-Walk the participant to the debriefing room.
-Debrief the participant 
-Give them a debriefing form to read. Do not offer them a copy, but they can take one if they request one. Implore them not to tell anyone about the deception.
-Reference the Honor Code: e.g. “Building and maintaining a community of trust is one of the stated goals of the Honor Code. We are trusting you not to reveal the deception about the “discussion” to others, especially those who may take part in the Omnibus Project after you, as this is crucial to the eventual success of this study.”
-Ask them if they would like a copy of the informed consent to take home (blank copies are in the manila folder on the front desk, or in the data cave).
-Let subjects know that at this point in time they can ask any questions about the experiment that they have just completed.
-If there are questions, just try and answer them to the best of your ability but remain as vague as possible. For people who are really pushing to have questions answered that you don’t feel comfortable with, refer them to the contact information at the bottom of the debriefing form.
-Thank them for their time and for participating in the Omnibus Project.
-Check if the next participant has already arrived before leaving debriefing room, just so nothing gets said after leaving the debriefing room.
-
+11. Verify that the lab survey has been submitted.
+12. Remove the sensors from the participant.
+    * Throw electrodes away
+    * Offer the participant a wipe for the electrode sites.
+    * Turn the sensor off with the switch on the side
+13. Walk the participant to the debriefing room, close the door, and debrief them.
+    * Give them a debriefing form to read.
+    * Do not offer them a copy, but they can take one if they request one.
+    * Implore them not to tell anyone about the deception.
+    * Reference the Honor Code: e.g. "Building and maintaining a community of trust is one of the stated goals of the Honor Code. We are trusting you not to reveal the deception about the “discussion” to others, especially those who may take part in the Omnibus Project after you, as this is crucial to the eventual success of this study."
+    * Ask them if they would like a copy of the informed consent to take home (blank copies are in the manila folder on the front desk, or in the data cave).
+    * Let subjects know that at this point in time they can ask any questions about the experiment that they have just completed.
+    * If there are questions, just try and answer them to the best of your ability but remain as vague as possible. For people who are really pushing to have questions answered that you don’t feel comfortable with, refer them to the contact information at the bottom of the debriefing form.
+    * Thank them for their time and for participating in the Omnibus Project.
+14. Check whether the next participant has already arrived before leaving debriefing room, to ensure nothing gets said after you leave the debriefing room.
 
 #### Between Participants:
 
-1. Make sure previous Acq*Knowledge* recording was saved with XXXXX(problem).acq and XXXXX(problem).txt formats using their 5-digit unique subject ID).
-2. Wipe down headphones, mouse, keyboard, and bell.
+1. Make sure previous Acq*Knowledge* recording was saved with `XXXXX(problem).acq` and `XXXXX(problem).txt` formats using their 5-digit unique subject ID).
+j2. Wipe down headphones, mouse, keyboard, and bell.
 3. Make sure fresh electrodes are laid out, haven’t dried out.
 4. Pull up new lab survey on participant laptop.
 5. Check if laptop cart needs to be switched for handedness of next participant.
