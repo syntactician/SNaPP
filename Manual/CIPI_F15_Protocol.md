@@ -66,18 +66,19 @@
 
 #### When participants  first arrive in the SSRMC:
 
-1. Follow the items on the seperate checklist that is provided.
-2. That checklist is reproduced and elaborated here:
-    1. **Arrival time if waiting** – If you are unable to immediately begin proctoring, write down the participant's time of arrival on the daily participant list. Do not proceed with the rest of the checklist until you are ready to proctor the full lab session for the participant.
-    2. **Informed consent form** – Have the subject sign the form, and put it in the manila folder. While they do, give them an overview:
-        a. **hooking up to equipment** – Explain that we’ll be attaching a couple of electrodes to their fingers, wrist, and ankles, the removal of which isn’t any worse than a Band-Aid.
-        b. **watch videos** – Explain they'll be shown a few short video clips (informed consent may have wording about the video clips being potentially distressing, but if they pick up on this, ensure them that we haven’t had anyone have an issue with the videos yet).
-        c. **answer survey questions** – Explain that they'll be answering some survey questions.
-    3. **Chewing gum** – Ask if they're chewing gum, and if so, have them dispose of it.
-    4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage out data.
-    5. **Jewelry/watch removal** – Ask the to remove all jewerly on their wrists and hands.
-    6. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
-    7. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or nots that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
+Follow the items on the seperate checklist that is provided.  
+That checklist is reproduced and elaborated here:
+
+1. **Arrival time if waiting** – If you are unable to immediately begin proctoring, write down the participant's time of arrival on the daily participant list. Do not proceed with the rest of the checklist until you are ready to proctor the full lab session for the participant.
+2. **Informed consent form** – Have the subject sign the form, and put it in the manila folder. While they do, give them an overview:
+    a. **hooking up to equipment** – Explain that we’ll be attaching a couple of electrodes to their fingers, wrist, and ankles, the removal of which isn’t any worse than a Band-Aid.
+    b. **watch videos** – Explain they'll be shown a few short video clips (informed consent may have wording about the video clips being potentially distressing, but if they pick up on this, ensure them that we haven’t had anyone have an issue with the videos yet).
+    c. **answer survey questions** – Explain that they'll be answering some survey questions.
+3. **Chewing gum** – Ask if they're chewing gum, and if so, have them dispose of it.
+4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage out data.
+5. **Jewelry/watch removal** – Ask the to remove all jewerly on their wrists and hands.
+6. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
+7. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or nots that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
 
 #### Starting the Lab Session:
 
@@ -93,11 +94,11 @@
     a. Attach the BioNomadix unit to the wrist **opposite** the participant's dominant hand.
     b. EL507 electrodes are to connect the BioNomadix unit's leads to the tips of the index and middle fingers.
         * Black – index
-	* Red – middle
+        * Red – middle
     c. Cloth EL504 electrodes are to connect the ECG leads to the ankles and the right forearm.
-	* White – right arm
-	* Red – left ankle
-	* Black – right ankle
+        * White – right arm
+        * Red – left ankle
+        * Black – right ankle
 6. Give the participant a brief overview of what they will be asked to do:
     a. Inform them that videos and instructions will be presented on the monitor.
     b. Make sure they understand that there will be blank screens in between these presentations.
