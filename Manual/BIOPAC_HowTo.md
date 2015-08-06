@@ -12,13 +12,14 @@ This manual is meant to document the practices currently used by student researc
 
 ## Setting up the Hardware
 
-1. Connect the MP150, STP-100C, four PPGED-R units, UIM100C, and four ECG100C units together, in that order. When completed, the units should look like this.  
+1. Connect the MP150, PPGED-R, STP-100C, UIM100C, and ECG100C units together, in that order. When completed, the units should look like this.  
 ![Assembled MP150][MP150Assembled]
 2. Connect the MP150 unit to the slot 8 of the AT-FS708 with an ethernet cable. Connect the Acq*Knowledge* computer to slot 1 using another ethernet cable and an ethernet to USB adapter.  
 ![Attached cords][AT-FS708]
 3. Connect the leads for the EDA electrodes to the BioNomadix.  
 ![BioNomadix Assembled][BioNomadixAssembled]
 4. Attach the ECG leads to the extension cord and the extension cord the ECG100C.  
+![ECG Extension][ECGExtensionAssembled]  
 ![ECG Assembled][ECGAssembled]
 5. Connect the DB-37 ribbon the the rear port of the STP-100C and the Stim**Tracker**, using the DB-37 to DB-25 adapter, as pictured.  
 ![StimTracker Assembled][StimTrackerAssembled]  
@@ -26,6 +27,8 @@ Connect the Stim**Tracker to the SuperLab computer via the USB cord.
 ![SuperLab Connected][SuperLabAssembled]
 5. Set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.  
 ![PPED-R Switches][PPEGD-RSwitches]
+![ECG100C Switches][ECG100CSwitches]
+![ECG100C Top Switch][ECG100CSwitches2]
 6. Turn on the MP150 and AT-FS708 units.
 
 ## Setting up Channels
@@ -114,6 +117,13 @@ This creates a new waveform that is a count of the number of EDA events in the c
 [MP150Assembled]: .Pictures/MP150Assembled.jpg
 [AT-FS708]: .Pictures/AT-FS708.png
 [BioNomadixAssembled]: .Pictures/BioNomadixAssembled.jpg
+[ECGExtensionAssembled]: .Pictures/ECGExtensionAssembled.jpg
+[ECGAssembled]: .Pictures/ECGAssembled.jpg
+[StimTrackerAssembled]: .Pictures/StimTrackerAssembled.jpg
+[SuperLabAssembled]: .Pictures/SuperlabAssembled.jpg
+[PPEGD-RSwitches]: .Pictures/PPGED-RSwitches.jpg
+[ECG100CSwitches]: .Pictures/ECG100CSwitches.jpg
+[ECG100CSwitches2]: .Pictures/ECG100CSwitches2.jpg
 [NoHardwarePopUp]: .Pictures/NoHardwarePopUp.png
 [BlankGraphCreation]: .Pictures/BlankGraphCreation.png
 [ModuleSetUp]: .Pictures/ModuleSetUp.png
