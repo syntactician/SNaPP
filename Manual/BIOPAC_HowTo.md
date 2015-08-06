@@ -26,8 +26,8 @@ This manual is meant to document the practices currently used by student researc
 Connect the Stim**Tracker to the SuperLab computer via the USB cord.  
 ![SuperLab Connected][SuperLabAssembled]
 5. Set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.  
-![PPED-R Switches][PPEGD-RSwitches]
-![ECG100C Switches][ECG100CSwitches]
+![PPED-R Switches][PPEGD-RSwitches]  
+![ECG100C Switches][ECG100CSwitches]  
 ![ECG100C Top Switch][ECG100CSwitches2]
 6. Turn on the MP150 and AT-FS708 units.
 
