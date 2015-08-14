@@ -1,4 +1,4 @@
-## [SNaPP Lab](http://snapp-lab.wm.edu)'s Lab Manual, AcqKnowledge Templates, and Stimulus files
+## [SNaPP Lab](http://snapp-lab.wm.edu)'s Lab Manual in Progress
 
 #### Todo:
 * Finish this README
