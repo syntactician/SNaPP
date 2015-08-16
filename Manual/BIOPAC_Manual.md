@@ -58,7 +58,8 @@ You should see something like this now.
 ![Set Up Acquisition Drop Down Menu][AcquisitionDropDown]  
 Add the PPEGED-R module with the "Add New Module" button (see steps 7 through 9 if there is any confusion).  
 Set the radio buttons to match this picture. These settings should match the positions of the physical switches on the device.  
-![EDA Settings][EDASettings]  
+![EDA Settings][EDASettings]
+<img src=".Pictures/EDASettings.png" width="50%"/>
 Follow the instructions given by the following pop-ups.
     * At this first pop-up, make sure the BioNomadix unit is on.  
     ![EDA Pop-Up 1][EDAPopUp1]
