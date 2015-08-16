@@ -21,7 +21,7 @@ This manual is meant to document the practices currently used by student researc
 4. Attach the ECG leads to the extension cord and the extension cord the ECG100C.  
 ![ECG Extension][ECGExtensionAssembled]  
 ![ECG Assembled][ECGAssembled]
-<img src=".Pictures/ECGExtensionAssembled.jpg" width="45%"/> <img src=".Pictures/ECGAssembled.jpg" width="45%"/>
+<img src=".Pictures/ECGExtensionAssembled.jpg" width="48%"/> <img src=".Pictures/ECGAssembled.jpg" width="48%"/>
 5. Connect the DB-37 ribbon the the rear port of the STP-100C and the Stim**Tracker**, using the DB-37 to DB-25 adapter, as pictured.  
 ![StimTracker Assembled][StimTrackerAssembled]  
 Connect the Stim**Tracker to the SuperLab computer via the USB cord.  
