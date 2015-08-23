@@ -59,14 +59,14 @@
         * Set up the small laptop desk on the side of the chair to match handedness.
         * If participant is unable to wear headphones due to hearing aids, turn on speakers and run a sound check
 7. Check to make sure that the room is set up:
-    a. Adjust the blinds as as needed in Data Cave.
+    a. Adjust the blinds as needed in Data Cave.
     b. Check to ensure all furniture is placed properly on the tape marks
 8. Set out necessary forms in the foyer (informed consent and pens) and debriefing room.
     * All forms are located on their labeled shelves in the data cave.
 
 #### When participants  first arrive in the SSRMC:
 
-Follow the items on the seperate checklist that is provided.  
+Follow the items on the separate checklist that is provided.  
 That checklist is reproduced and elaborated here:
 
 1. **Arrival time if waiting** – If you are unable to immediately begin proctoring, write down the participant's time of arrival on the daily participant list. Do not proceed with the rest of the checklist until you are ready to proctor the full lab session for the participant.
@@ -76,15 +76,15 @@ That checklist is reproduced and elaborated here:
     c. **answer survey questions** – Explain that they'll be answering some survey questions.
 3. **Chewing gum** – Ask if they're chewing gum, and if so, have them dispose of it.
 4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage out data.
-5. **Jewelry/watch removal** – Ask the to remove all jewerly on their wrists and hands.
+5. **Jewelry/watch removal** – Ask them to remove all jewelry on their wrists and hands.
 6. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
-7. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or nots that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
+7. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or you notice that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
 
 #### Starting the Lab Session:
 
 1. Once you've completed the check-in checklist, direct the participant to sit in the chair in the subject room.
 2. Once they are seated, show them the laptop on which they'll be answering surveys.
-    a. Explain they will need to keep the sensor hand still once study begins. Ensure that they can use the mouse comfortably and without excess movement of their other arm.
+    a. Explain they will need to keep the sensor hand still once study begins, when not using the laptop. Ensure that they can use the mouse comfortably and without excess movement of their other arm.
     b. Ask them to answer the initial survey questions while leaving their non-dominant hand on the armrest (for practice).
     c. Instruct them to close the laptop and ring the bell when they have completed the survey 	questions.
 3. Leave room while participant completes first questions.
@@ -112,8 +112,8 @@ That checklist is reproduced and elaborated here:
 Acq*Knowledge* should already be up and ready to collect data. If it is not, you must disconnect the BioNomadix unit from the participant and set it up now before you proceed.
 
 1. Bring up the lab log side-by-side with the Acq*Knowledge* graph.
-2. press START to begin the Acq*Knowledge* recording before starting SuperLab.
-3. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly.
+2. Press START to begin the Acq*Knowledge* recording before starting SuperLab.
+3. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly (when in doubt, refer to the BIOPAC Manual.
 4. After the first set of videos ends and the instruction screen appears, peek through the blinds to make sure that the participant is answering the Qualtrics survey on the laptop. When they are finished (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
 5. Repeat step 4 after the second set of videos
 6. **DISCUSSION STIMULUS**
@@ -121,8 +121,8 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
     b. After the stimulus, knock on the door, enter the room, close the door after you, and perform the deception according to the following script:
         * So... it turns out that your discussion partner never showed up.
         * Normally, the discussion is the last part of the lab session, but we did this study last year, and unfortunately we had enough no-shows that we knew we needed a backup plan going forward.
-        * So instead of having the discussion, the last part of your lab session will be this extra survey I’m going to pull up on the laptop.
-    c. Pull up the final survey.
+        * So instead of having the discussion, the last part of your lab session will be this extra portion of the survey I’m going to pull up on the laptop.
+    c. Open the laptop and click through the question that comes up asking whether the discussion partner showed up.
     d. Leave the room for them to complete the survey.
 8. Between lying and debriefing, while the participant is doing the last Qualtrics section:
     a. Save the Acq*Knowledge* graph as both `XXXXX(problem).acq` and `XXXXX(problem).txt`

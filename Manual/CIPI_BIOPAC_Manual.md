@@ -9,8 +9,7 @@ Based on [YouTube tutorials](https://www.youtube.com/user/BiopacSystems) created
 ## Setting up the Hardware
 
 1. Connect the MP150, PPGED-R, STP-100C, UIM100C, and ECG100C units together, in that order. When completed, the units should look like this.  
-![Assembled MP150][MP150Assembled]  
-If you want to collect data for multiple participants, include multiple copies of whatever units you need to collect that data.
+![Assembled MP150][MP150Assembled]
 2. Connect the MP150 unit to the slot 8 of the AT-FS708 with an ethernet cable. Connect the Acq*Knowledge* computer to slot 1 using another ethernet cable and an ethernet to USB adapter.  
 ![Attached cords][AT-FS708]
 3. Connect the leads for the EDA electrodes to the BioNomadix.  
@@ -21,7 +20,7 @@ If you want to collect data for multiple participants, include multiple copies o
 5. Connect the DB-37 ribbon to the rear port of the STP-100C and the Stim**Tracker**, using the DB-37 to DB-25 adapter, as pictured.  
 ![StimTracker Assembled][StimTrackerAssembled]  
 Connect the Stim**Tracker** to the SuperLab computer via the USB cord.  
-5. For a single participant, set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.  
+5. Set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.  
 ![PPED-R Switches][PPEGD-RSwitches]  
 ![ECG100C Switches][ECG100CSwitches]  
 ![ECG100C Top Switch][ECG100CSwitches2]
