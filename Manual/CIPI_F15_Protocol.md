@@ -89,25 +89,24 @@ That checklist is reproduced and elaborated here:
     c. Instruct them to close the laptop and ring the bell when they have completed the survey 	questions.
 3. Leave room while participant completes first questions.
 4. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
-4. After the bell is rung, turn off the lights in the datacave, and re-enter the subject room.
-5. Give the participant the Electrode Placement Handout--reproduced here in entirety--and direct them to apply their electrodes accordingly.
-#ELECTRODE PLACEMENT HANDOUT TO BE ADDED
-6. Attach the BioNomadix unit as described in the BIOPAC Manual.
+5. After the bell is rung, turn off the lights in the datacave, and re-enter the subject room.
+6. Give the participant the Electrode Placement Handout and direct them to apply cloth EL504 electrodes to their arm and ankles accordingly.
+7. Attach these electrodes to the ECG leads:
+    * White – right arm
+    * Red – left ankle
+    * Black – right ankle
+8. Attach the BioNomadix unit as described in the BIOPAC Manual.
     a. Attach the BioNomadix unit to the wrist **opposite** the participant's dominant hand.
-    b. EL507 electrodes are to connect the BioNomadix unit's leads to the tips of the index and middle fingers.
+    b. EL507 electrodes are to connect the BioNomadix unit's leads to the tips of the index and middle fingers:
         * Black – index
         * Red – middle
-    c. Cloth EL504 electrodes are to connect the ECG leads to the ankles and the right forearm.
-        * White – right arm
-        * Red – left ankle
-        * Black – right ankle
-6. Give the participant a brief overview of what they will be asked to do:
+9. Give the participant a brief overview of what they will be asked to do:
     a. Inform them that videos and instructions will be presented on the monitor.
     b. Make sure they understand that there will be blank screens in between these presentations.
     c. Instruct them to sit back, relax, and limit their motion as much as possible *including while nothing is on screen*.
     d. Instruct them to ring the bell if they have questions.
-7. Remind the participant that they can stop their participation at any time.
-8. Turn off the light and leave the room.
+10. Remind the participant that they can stop their participation at any time.
+11. Turn off the light and leave the room.
 
 #### Collecting Data:
 
