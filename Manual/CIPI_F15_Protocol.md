@@ -90,7 +90,9 @@ That checklist is reproduced and elaborated here:
 3. Leave room while participant completes first questions.
 4. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
 4. After the bell is rung, turn off the lights in the datacave, and re-enter the subject room.
-5. Administer the sensors to the participant according to the instructions provided in the BIOPAC Manual.
+5. Give the participant the Electrode Placement Handout--reproduced here in entirety--and direct them to apply their electrodes accordingly.
+#ELECTRODE PLACEMENT HANDOUT TO BE ADDED
+6. Attach the BioNomadix unit as described in the BIOPAC Manual.
     a. Attach the BioNomadix unit to the wrist **opposite** the participant's dominant hand.
     b. EL507 electrodes are to connect the BioNomadix unit's leads to the tips of the index and middle fingers.
         * Black – index
