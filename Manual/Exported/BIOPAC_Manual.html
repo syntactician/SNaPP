@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<h1 id="snapp-lab-biopac-manual">SNaPP Lab BIOPAC Manual</h1>
+<p>Created 4 August 2015 by Edward Hernández<br />
+Last modified 25 August 2015 by Edward Hernández</p>
+<p>Original version <a href="Legacy/biopac_howto.docx">Biopac How-To</a> created 23 July 2013 by Drew Englehardt<br />
+Based on <a href="https://www.youtube.com/user/BiopacSystems">YouTube tutorials</a> created by BIOPAC Systems</p>
+<h2 id="setting-up-the-hardware">Setting up the Hardware</h2>
+<ol style="list-style-type: decimal">
+<li>Connect the MP150, PPGED-R, STP-100C, UIM100C, and ECG100C units together, in that order. When completed, the units should look like this.<br />
+<img src=".Pictures/MP150Assembled.jpg" alt="Assembled MP150" /><br />
+If you want to collect data for multiple participants, include multiple copies of whatever units you need to collect that data.</li>
+<li>Connect the MP150 unit to the slot 8 of the AT-FS708 with an ethernet cable. Connect the Acq<em>Knowledge</em> computer to slot 1 using another ethernet cable and an ethernet to USB adapter.<br />
+In principle, the exact ports into which the cables are plugged should not matter, but this setup is what we have tested the most.<br />
+<img src=".Pictures/AT-FS708.png" alt="Attached cords" /></li>
+<li>Connect the leads for the EDA electrodes to the BioNomadix.<br />
+<img src=".Pictures/BioNomadixAssembled.jpg" alt="BioNomadix Assembled" /></li>
+<li>Attach the ECG leads to the extension cord and the extension cord the ECG100C, exactly as pictured.<br />
+<img src=".Pictures/ECGExtensionAssembled.jpg" alt="ECG Extension" /><br />
+<img src=".Pictures/ECGAssembled.jpg" alt="ECG Assembled" /></li>
+<li>Connect the DB-37 ribbon to the rear port of the STP-100C and the Stim<strong>Tracker</strong>, using the DB-37 to DB-25 adapter, as pictured.<br />
+If this cable is already connected, do not tamper with it. Our adapter appears to be slightly misshapen, making connecting the ribbon extremely difficult.<br />
+<img src=".Pictures/StimTrackerAssembled.jpg" alt="StimTracker Assembled" /><br />
+Connect the Stim<strong>Tracker</strong> to the SuperLab computer via the USB cord.<br />
+</li>
+<li>For a single participant, set the switches as pictured. PPG is intentionally turned off, as ECG is a more direct, precise, and reliable measurement of the same phenomena.<br />
+<img src=".Pictures/PPGED-RSwitches.jpg" alt="PPED-R Switches" /><br />
+<img src=".Pictures/ECG100CSwitches.jpg" alt="ECG100C Switches" /><br />
+<img src=".Pictures/ECG100CSwitches2.jpg" alt="ECG100C Top Switch" /><br />
+For multiple participants, ensure that no modules are set to use the same channels. If two modules are set to use the same channel, even if one of them is switched off, the data for that channel will be unusable.<br />
+On the other hand, if you intend to turn off several modules (for example, multiple PPG modules in favor of ECG), you can conserve channels by setting all the unused modules to the same channel.</li>
+<li>Turn on the MP150 and AT-FS708 units.</li>
+</ol>
+<h2 id="setting-up-channels">Setting up Channels</h2>
+<p>Even if you have a template file, it is important that you follow the steps in this section every time you collect data.<br />
+Following these steps is essential to getting usable EDA data.</p>
+<ol style="list-style-type: decimal">
+<li>Turn off the Wifi via the &quot;Network&quot; System Preferences tab.<br />
+If the wifi is not turned off, the computer attempts to use the ethernet connection to access the network, making the hardware unusable. This is a known issue and will likely be patched in a future update.</li>
+<li>If you already have a graph template, open it and skip to step 14. If not, continue with step 3 to set up a graph.</li>
+<li>Open Acq<em>Knowledge</em> 4.4.</li>
+<li>If the following pop-up appears, try hitting retry. If it returns, test all connections, make sure the wifi is off, and restart the computer.<br />
+<img src=".Pictures/NoHardwarePopUp.png" alt="No Hardware Popup" /></li>
+<li>Open a blank file (Acq<em>Knowledge</em> calls all its files &quot;graphs&quot;), by selecting <code>Create and/or Record a new experiment</code> and Create empty graph.<br />
+<img src=".Pictures/BlankGraphCreation.png" alt="AcqKnowledge Blank Graph Creation" /><br />
+You should now see a window that looks something like this.<br />
+<img src=".Pictures/ModuleSetUp.png" alt="Module Set- Up" /><br />
+</li>
+<li>Select <code>ECG100C and ECG100C-MRI</code> from the list. For single participant collection, like the CIPI protocol, select channel 8.<br />
+<img src=".Pictures/ECGChannelSettings.png" alt="ECG Channel Selection" /><br />
+Proceed with the following settings.<br />
+<img src=".Pictures/ECGSettings.png" alt="ECG Settings" /><br />
+You should see something like this now.<br />
+<img src=".Pictures/AcquisitionSetUp1.png" alt="Acquisition Set-Up" /></li>
+<li>To set up event marker acquisition from SuperLab, navigate to the <code>Digital</code> tab, and select <code>Acquire</code>, <code>Plot</code>, and <code>Value</code> for channel D8. This corresponds to channel !!INSERT CHANNEL NUMBER!! in SuperLab.<br />
+<img src=".Pictures/DigitalSetUp.png" alt="Digital Channel Set-Up" /></li>
+<li>To calculate heart rate from ECG in real time, navigate to the <code>Calculate</code> tab, and select <code>Acquire</code>, <code>Plot</code>, <code>Value</code>, and <code>Rate</code> for Channel C0. This will calculate heart rate from the ECG data in real time.<br />
+<img src=".Pictures/CalculateSetUpPopUp.png" alt="Calculation Channel Setup Pop-Up" /><br />
+<img src=".Pictures/CalculateSetUp.png" alt="Calculation Channel Set-Up" /></li>
+<li>All of the configuration up to this poing can be saved in a template file, but EDA requires per-setup calibration which prevents a template file for performing properly if it is included. If you don't already have a template, use the <code>Save As...</code> dialogue to save the graph as a <code>.gtl</code> template.<br />
+<img src=".Pictures/SaveTemplateDialogue.png" alt="Save Template Dialogue Box" /></li>
+<li>If you got to this step by opening a template file, open the <code>Set Up Acquisition</code> menu. If not, you should already have it open.<br />
+<img src=".Pictures/AcquisitionDropDown.png" alt="Set Up Acquisition Drop Down Menu" /><br />
+Add the PPEGED-R module with the <code>Add New Module</code> button (see steps 7 through 9 if there is any confusion).<br />
+Set the radio buttons to match this picture. These settings should match the positions of the physical switches on the device.<br />
+<img src=".Pictures/EDASettings.png" alt="EDA Settings" /> Follow the instructions given by the following pop-ups.
+<ul>
+<li>At this first pop-up, make sure the BioNomadix unit is on.<br />
+<img src=".Pictures/EDAPopUp1.png" alt="EDA Pop-Up 1" /></li>
+<li>Make sure the leads are connected to the BioNomadix, but that they are not yet clipped to electrodes.<br />
+<img src=".Pictures/EDAPopUp2.png" alt="EDA Pop-Up 2" /></li>
+<li>Clip the leads to some electrodes, but do not attach them to a subject.<br />
+<img src=".Pictures/BioNomadixAssembled2.png" alt="EDA Leads Attached" /></li>
+</ul></li>
+<li>Close the <code>Data Acquisition Settings</code> menu. You should see a blank graph.<br />
+<img src=".Pictures/BlankGraph.png" alt="Blank Graph" /> <strong>Acq<em>Knowledge</em> is now ready to collect data!</strong><br />
+Be aware that there will be additional EDA calibration prompts at the start of data collection. These will be covered in the next section.</li>
+</ol>
+<h2 id="connecting-a-subject-to-the-hardware">Connecting a Subject to the Hardware</h2>
+<p>Before beginning to attach any equipment, have the participant remove all jewelry on their hands, arms, and ankles, and rinse their hands with water (do not have them wash with soap).<br />
+For some protocols, you may wish to have the participant apply their own electrodes. If so, provide them with an <a href="">Electrode Placement Handout</a> and connect the electrodes to the leads before they attach themselves.</p>
+<ol style="list-style-type: decimal">
+<li>Place cloth <a href="http://www.biopac.com/disposable-cloth-electrode-30">EL504</a> electrodes on the insides of both of the participant's ankles, avoiding hair if possible.<br />
+This placement should be ideal, avoiding both hair and fatty tissues.<br />
+</li>
+<li>Place another cloth electrode on the inside of the participant's right forearm, approximately equidistant from the wrist and elbow, as pictured.<br />
+For the cleanest data, the wrist would be ideal. However, left handed participants will have the BioNomadix unit covering the ideal area for most protocols, and inter-participant reliability and comparability of the ECG data is worth the small loss in quality.<br />
+</li>
+<li>Connect the electrode on the forearm to the white lead, attaching the clip to the metal post on the electrode. Connect the red lead to the left ankle and the black lead to the right ankle.</li>
+<li>Place foam <a href="https://www.biopac.com/disposable-electrodermal-electrode-100-education">EL507</a> electrodes on the fingertips of the index and middle fingers of the participant's non-dominant hand, rubbing them in to ensure good contact.</li>
+<li>Wrap the BioNomadix unit's velcro strap around the wrist of the participant's non-dominant hand.</li>
+<li>connect the black lead to the electrode on the forefinger, and the red lead to the electrode on the middle finger.</li>
+</ol>
+<h2 id="collecting-data-in-acqknowledge">Collecting Data in AcqKnowledge</h2>
+<p>This section assumes that you have already set up your channels exactly as described above, that you have the graph on which they are set up open already, and that your subject is connected to the equipment.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>When you’re ready to begin data collection, press <code>Start</code>.</li>
+<li>You should be presented with a pop-up instructing you to calibrate the BioNomadix EDA sensor. Follow the onscreen instructions:
+<ul>
+<li>ADD FURTHER INSTRUCTIONS</li>
+</ul></li>
+<li>When you click <code>Calibrate</code>, collection will begin, and you should see 4 channels separately gathering data in real time.</li>
+<li>Check to make sure the waveforms look essentially like this example.
+<ul>
+<li>This is what ideal data looks like:</li>
+<li>If the ECG graph looks any other way, there is probably something wrong, but we don't yet know how to fix it.</li>
+<li>If the EDA graph looks like this, there is a connection problem between the electrodes and the fingertips. Rub them in to try to improve the connection.</li>
+<li>The D8 channel should look completely flat unless you have a stimulus playing in SuperLab. When a stimulus is playing, it may look something like this.</li>
+</ul></li>
+</ol>
+<h2 id="data-analysis-using-acqknowledge">Data Analysis using AcqKnowledge</h2>
+<h4 id="currently-this-section-is-a-duplication-of-drews-older-guide-to-analyzing-eda-data.-it-will-be-renovated-soon.">* <strong>Currently this section is a duplication of Drew's older guide to analyzing EDA data. It will be renovated soon.</strong> *</h4>
+<ol style="list-style-type: decimal">
+<li>To analyze EDA data, first filter any high frequency noise. Select Transform on the top menu, then filter, FIR, low pass. Define the filter with the following settings.</li>
+<li>Select the <code>Locate SCRs</code> option in the <code>Electrodermal Activity</code> menu.</li>
+<li>Choose to construct a new Tonic EDA channel from the Phasic EDA channel you collected.
+<ul>
+<li>This should take some time, but when it is completed, the graph ought to look like this, with a new line and with events marked.</li>
+</ul></li>
+<li>To count the number of EDA events, first create a copy of the EDA channel by going to Edit, then “Duplicate Waveform”.</li>
+<li>Next, select the duplicate EDA waveform. Select transform, from the top menu, math functions, threshold. For the “lower threshold” input <code>0.05</code>, and for the “upper threshold” input <code>0.05</code>1. These settings will detect events that are 0.05 microsiemens or larger and will display the result as a series of spikes that meet the response criteria of being 0.05 microsiemens or larger.</li>
+<li>Then, go to <code>Analysis</code> and select <code>Find Rate</code>.<br />
+Use the following criteria to count the number of peaks (i.e. EDA events) in the transformed waveform. Function: Find Rate. Threshold level: 0.05.<br />
+This creates a new waveform that is a count of the number of EDA events in the collected data. If you compare it to the waveform created in step 3, the count will increase by one at the end of each marked event.</li>
+<li>AcqKnowledge also has an automated procedure to determine EDA events. To access it go to the Analysis tab, click on Electrodermal activity, and Locate SCRs.</li>
+<li>Make sure the EDA channel is selected, and hit ok.</li>
+<li>Finally, the EDA events are marked as below. The beginning and end of the SCR event are marked by ( and ) respectively. The peak event response is marked by a water droplet, like below.</li>
+</ol>
+<hr />
+</body>
+</html>

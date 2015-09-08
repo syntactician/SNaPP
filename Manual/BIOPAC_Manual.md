@@ -95,26 +95,14 @@ For the cleanest data, the wrist would be ideal. However, left handed participan
 This section assumes that you have already set up your channels exactly as described above, that you have the graph on which they are set up open already, and that your subject is connected to the equipment.
 
 2. When you’re ready to begin data collection, press `Start`.
-2. You should be presented with a pop-up instructing you to calibrate the BioNomadix EDA sensor. Follow the instructions:
-    * FLESH
-    * THIS
-    * OUT
-    * LATER
-    * IF
-    * YOU
-    * DON'T
-    * I'LL
-    * BE
-    * UPSET
+2. You should be presented with a pop-up instructing you to calibrate the BioNomadix EDA sensor. Follow the onscreen instructions:
+    * ADD FURTHER INSTRUCTIONS
 3. When you click `Calibrate`, collection will begin, and you should see 4 channels separately gathering data in real time.
 4. Check to make sure the waveforms look essentially like this example.
-    * This is what ideal data looks like:  
-    ![][]
+    * This is what ideal data looks like:
     * If the ECG graph looks any other way, there is probably something wrong, but we don't yet know how to fix it.
-    * If the EDA graph looks like this, there is a connection problem between the electrodes and the fingertips. Rub them in to try to improve the connection.  
-    ![][]
-    * The D8 channel should look completely flat unless you have a stimulus playing in SuperLab. When a stimulus is playing, it may look something like this.  
-    ![][]
+    * If the EDA graph looks like this, there is a connection problem between the electrodes and the fingertips. Rub them in to try to improve the connection.
+    * The D8 channel should look completely flat unless you have a stimulus playing in SuperLab. When a stimulus is playing, it may look something like this.
 
 ## Data Analysis using AcqKnowledge
 

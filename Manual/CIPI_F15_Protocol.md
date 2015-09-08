@@ -83,42 +83,44 @@ That checklist is reproduced and elaborated here:
 #### Starting the Lab Session:
 
 1. Once you've completed the check-in checklist, direct the participant to sit in the chair in the subject room.
-2. Once they are seated, show them the laptop on which they'll be answering surveys.
-    a. Explain they will need to keep the sensor hand still once study begins, when not using the laptop. Ensure that they can use the mouse comfortably and without excess movement of their other arm.
-    b. Ask them to answer the initial survey questions while leaving their non-dominant hand on the armrest (for practice).
-    c. Instruct them to close the laptop and ring the bell when they have completed the survey 	questions.
-3. Leave room while participant completes first questions.
-4. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
-5. After the bell is rung, turn off the lights in the datacave, and re-enter the subject room.
-6. Give the participant the Electrode Placement Handout and direct them to apply cloth EL504 electrodes to their arm and ankles accordingly.
-7. Attach these electrodes to the ECG leads:
+2. Give the participant the Electrode Placement Handout and direct them to apply cloth EL504 electrodes to their arm and ankles accordingly.
+3. Attach these electrodes to the ECG leads:
     * White – right arm
     * Red – left ankle
     * Black – right ankle
-8. Attach the BioNomadix unit as described in the BIOPAC Manual.
+4. Attach the BioNomadix unit as described in the BIOPAC Manual.
     a. Attach the BioNomadix unit to the wrist **opposite** the participant's dominant hand.
     b. EL507 electrodes are to connect the BioNomadix unit's leads to the tips of the index and middle fingers:
         * Black – index
         * Red – middle
-9. Give the participant a brief overview of what they will be asked to do:
+
+5. Show them the laptop on which they'll be answering surveys.
+    a. Explain they will need to keep the sensor hand still once study begins, when not using the laptop. Ensure that they can use the mouse comfortably and without excess movement of their other arm.
+    b. Ask them to answer the initial survey questions while leaving their non-dominant hand on the armrest (for practice).
+    c. Instruct them to close the laptop and ring the bell when they have completed the survey 	questions.
+6. Leave room while participant completes first questions.
+7. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
+5. After the bell is rung, turn off the lights in the datacave, and re-enter the subject room.
+11. Give the participant a brief overview of what they will be asked to do:
     a. Inform them that videos and instructions will be presented on the monitor.
     b. Make sure they understand that there will be blank screens in between these presentations.
     c. Instruct them to sit back, relax, and limit their motion as much as possible *including while nothing is on screen*.
     d. Instruct them to ring the bell if they have questions.
-10. Remind the participant that they can stop their participation at any time.
-11. Turn off the light and leave the room.
+12. Remind the participant that they can stop their participation at any time.
+13. Turn off the light and leave the room.
 
 #### Collecting Data:
 
 Acq*Knowledge* should already be up and ready to collect data. If it is not, you must disconnect the BioNomadix unit from the participant and set it up now before you proceed.
 
 1. Bring up the lab log side-by-side with the Acq*Knowledge* graph.
-2. Press START to begin the Acq*Knowledge* recording before starting SuperLab.
+2. Press START to begin the Acq*Knowledge* recording before advancing SuperLab.
 3. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly (when in doubt, refer to the BIOPAC Manual.
-4. After the first set of videos ends and the instruction screen appears, peek through the blinds to make sure that the participant is answering the Qualtrics survey on the laptop. When they are finished (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
-5. Repeat step 4 after the second set of videos
-6. **DISCUSSION STIMULUS**
-    a. The participant thinks that they are preparing for a political conversation. Give them until the end of the stimulus.
+4. After Superlab is advanced, the participant will be prompted by the soundcheck to take a deep breath. This should s(t)imulate an EDA event. If it does not, make a note in the lab log
+5. After the first set of videos ends and the instruction screen appears, peek through the blinds to make sure that the participant is answering the Qualtrics survey on the laptop. When they are finished (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
+6. Repeat step 4 after the second set of videos
+7. **DISCUSSION STIMULUS**
+    a. The participant thinks that they are preparing for a political conversation. Give them until the end of the stimulus to prepare.
     b. After the stimulus, knock on the door, enter the room, close the door after you, and perform the deception according to the following script:
         * So... it turns out that your discussion partner never showed up.
         * Normally, the discussion is the last part of the lab session, but we did this study last year, and unfortunately we had enough no-shows that we knew we needed a backup plan going forward.
@@ -131,13 +133,13 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
         * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `XXXXX.acq`, whereas one in which the PPG failed might look like `XXXXXbadppg.acq`.
         * The file should be saved as both a .acq and .txt file (these are options in the save dialogue box).
     b. If there is time, prepare a new graph for the next participant.
-10. When the old participant is finished with Qualtrics and has rung the bell, enter the subject room and turn the light on.
-11. Verify that the lab survey has been submitted.
-12. Remove the sensors from the participant.
+9. When the old participant is finished with Qualtrics and has rung the bell, enter the subject room and turn the light on.
+10. Verify that the lab survey has been submitted.
+11. Remove the sensors from the participant.
     * Throw electrodes away
     * Offer the participant a wipe for the electrode sites.
     * Turn the sensor off with the switch on the side
-13. Walk the participant to the debriefing room, close the door, and debrief them.
+12. Walk the participant to the debriefing room, close the door, and debrief them.
     * Give them a debriefing form to read.
     * Do not offer them a copy, but they can take one if they request one.
     * Implore them not to tell anyone about the deception.
@@ -146,7 +148,7 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
     * Let subjects know that at this point in time they can ask any questions about the experiment that they have just completed.
     * If there are questions, just try and answer them to the best of your ability but remain as vague as possible. For people who are really pushing to have questions answered that you don’t feel comfortable with, refer them to the contact information at the bottom of the debriefing form.
     * Thank them for their time and for participating in the Omnibus Project.
-14. Check whether the next participant has already arrived before leaving debriefing room, to ensure nothing gets said after you leave the debriefing room.
+13. Check whether the next participant has already arrived before leaving debriefing room, to ensure nothing gets said after you leave the debriefing room.
 
 #### Between Participants:
 
