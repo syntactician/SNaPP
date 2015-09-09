@@ -9,6 +9,7 @@
 5. Jewelry/watch removal
 6. Rinse hands
 7. Bathroom
+8. Building noise
 8. Mental notes for lab log
 
 #### Lab Session
