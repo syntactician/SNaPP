@@ -78,6 +78,7 @@ That checklist is reproduced and elaborated here:
 4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage out data.
 5. **Jewelry/watch removal** – Ask them to remove all jewelry on their wrists and hands.
 6. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
+7. **Bathroom** – Inform them that if they need to use the bathroom, now is the time. If they do go, note it in the lab log since (presumably) they'll wash their hands with soap.
 7. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or you notice that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
 
 #### Starting the Lab Session:

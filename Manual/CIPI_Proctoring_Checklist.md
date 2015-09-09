@@ -8,7 +8,8 @@
 4. Cell phone
 5. Jewelry/watch removal
 6. Rinse hands
-7. Mental notes for lab log
+7. Bathroom
+8. Mental notes for lab log
 
 #### Lab Session
 1. Take seat, keep hand still, do initial survey
