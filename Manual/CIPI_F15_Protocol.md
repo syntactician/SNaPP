@@ -167,10 +167,10 @@ j2. Wipe down headphones, mouse, keyboard, and bell.
 
 #### Lab Log:
 
-After resetting the participant room and debriefing the old participant, complete the Lab Log for the old participant. (For the last participant of the day, fill it out as soon as they leave.)
-     * **During the lab session, try to note building noise as it happens. You won't remember later.**
-     * If there are multiple proctors, all of them should confer to ensure everything makes it to the lab log. 
-     * It is important you do this as soon as possible after the subject leaves so that you don’t forget any pertinent detail. No detail is too small to note.
+After resetting the participant room and debriefing the old participant, complete the Lab Log for the old participant. (For the last participant of the day, fill it out as soon as they leave.)  
+    * **During the lab session, try to note building noise as it happens. You won't remember later.**
+    * If there are multiple proctors, all of them should confer to ensure everything makes it to the lab log. 
+    * It is important you do this as soon as possible after the subject leaves so that you don’t forget any pertinent detail. No detail is too small to note.
 
 
 #### At the End of the Day:
