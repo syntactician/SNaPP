@@ -117,7 +117,7 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
 1. Bring up the lab log side-by-side with the Acq*Knowledge* graph.
 2. Press START to begin the Acq*Knowledge* recording before advancing SuperLab.
 3. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly (when in doubt, refer to the BIOPAC Manual.
-4. After Superlab is advanced, the participant will be prompted by the soundcheck to take a deep breath. This should s(t)imulate an EDA event. If it does not, make a note in the lab log
+4. After Superlab is advanced, the participant will be prompted by the soundcheck to take a deep breath. This should s(t)imulate an EDA event. If it does not, make a note in the lab log.
 5. After the first set of videos ends and the instruction screen appears, peek through the blinds to make sure that the participant is answering the Qualtrics survey on the laptop. When they are finished (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
 6. Repeat step 4 after the second set of videos
 7. **DISCUSSION STIMULUS**
@@ -168,6 +168,7 @@ j2. Wipe down headphones, mouse, keyboard, and bell.
 #### Lab Log:
 
 After resetting the participant room and debriefing the old participant, complete the Lab Log for the old participant. (For the last participant of the day, fill it out as soon as they leave.)
+     * **During the lab session, try to note building noise as it happens. You won't remember later.**
      * If there are multiple proctors, all of them should confer to ensure everything makes it to the lab log. 
      * It is important you do this as soon as possible after the subject leaves so that you don’t forget any pertinent detail. No detail is too small to note.
 
