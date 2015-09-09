@@ -4,27 +4,27 @@
 
 | Treatment | Party ID | Info Level | Video Order | 
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | Same | High | Political |
-| 2 | Same | Low | Political |
-| 3 | Different | High | Political |
-| 4 | Different | Low | Political |
-| 5 | Same | High | Apolitical |
-| 6 | Same | Low | Apolitical |
-| 7 | Different | High | Apolitical |
-| 8 | Different | Low | Apolitical |
+| 1 | Agree | High | Political |
+| 2 | Agree | Low | Political |
+| 3 | Disagree | High | Political |
+| 4 | Disagree | Low | Political |
+| 5 | Agree | High | Apolitical |
+| 6 | Agree | Low | Apolitical |
+| 7 | Disagree | High | Apolitical |
+| 8 | Disagree | Low | Apolitical |
 
 ### **Democratic** Subjects
 
 | Treatment | Party ID | Info Level | Video Order | 
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | Same | High | Political |
-| 2 | Same | Low | Political |
-| 3 | Different | High | Political |
-| 4 | Different | Low | Political |
-| 5 | Same | High | Apolitical |
-| 6 | Same | Low | Apolitical |
-| 7 | Different | High | Apolitical |
-| 8 | Different | Low | Apolitical |
+| 1 | Agree | High | Political |
+| 2 | Agree | Low | Political |
+| 3 | Disagree | High | Political |
+| 4 | Disagree | Low | Political |
+| 5 | Agree | High | Apolitical |
+| 6 | Agree | Low | Apolitical |
+| 7 | Disagree | High | Apolitical |
+| 8 | Disagree | Low | Apolitical |
 
 
 ### **Independent** Subjects

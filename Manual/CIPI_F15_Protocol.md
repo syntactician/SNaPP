@@ -51,8 +51,10 @@
     * Additionally, the sink will need to be turned off at the end of each day.
 4. Open the Acq*Knowledge* graph template file.
 5. Load the stimulus presentation in SuperLab.
-    1. When prompted, enter participant's party ID by pressing the “d” key for Democrat, “r” for Republican, ~~or “i” for true Independents~~. Use lowercase letters.
-    2. On the next screen, enter their treatment condition (by pressing the number key corresponding to their condition number).
+    1. When prompted, enter the participant's party ID by pressing the “d” key for Democrat, “r” for Republican, or “i” for true Independents. Use lowercase letters.
+    2. Enter the treatment condition (by pressing the number key corresponding to their condition number).
+    3. Enter the agreement condition by pressing either `a` for agree or `d` for disagree.
+    4. Enter the knowledge condition by pressing either `h` for high or `l` for low.
 6. Load the Qualtrics lab survey on the laptop in the subject room.
     1. Enter the treatment condition, party identification, participant name, and participant ID#.
     2. Check data cave copy of daily schedule for participant's preferred handedness and hearing aid use.
@@ -204,4 +206,3 @@ After resetting the participant room and debriefing the old participant, complet
     * Right now, none of the data has been analyzed and since your scores are tied to a subject number, there is no way for me to tell you exactly how you did.
 * Can I get a copy of my results?
     * Due to confidentiality concerns, we are unable to produce individual reports.
-
