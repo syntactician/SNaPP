@@ -87,6 +87,7 @@ This placement should be ideal, avoiding both hair and fatty tissues.
 For the cleanest data, the wrist would be ideal. However, left handed participants will have the BioNomadix unit covering the ideal area for most protocols, and inter-participant reliability and comparability of the ECG data is worth the small loss in quality.  
 3. Connect the electrode on the forearm to the white lead, attaching the clip to the metal post on the electrode. Connect the red lead to the left ankle and the black lead to the right ankle.
 4. Place foam [EL507](https://www.biopac.com/disposable-electrodermal-electrode-100-education) electrodes on the fingertips of the index and middle fingers of the participant's non-dominant hand, rubbing them in to ensure good contact.
+	* For the sake of precision, you may want to hold the electrode gel-up and lower the participant's fingertip into the gel.
 5. Wrap the BioNomadix unit's velcro strap around the wrist of the participant's non-dominant hand.
 6. connect the black lead to the electrode on the forefinger, and the red lead to the electrode on the middle finger.
 

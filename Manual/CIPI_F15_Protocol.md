@@ -51,12 +51,12 @@
     * Additionally, the sink will need to be turned off at the end of each day.
 4. Open the Acq*Knowledge* graph template file.
 5. Load the stimulus presentation in SuperLab.
-    1. When prompted, enter the participant's party ID by pressing the “d” key for Democrat, “r” for Republican, or “i” for true Independents. Use lowercase letters.
+    1. When prompted, enter the participant's party ID by pressing `d` for Democrat, `r` for Republican, or `i` for true Independents. Use lowercase letters.
     2. Enter the treatment condition (by pressing the number key corresponding to their condition number).
-    3. Enter the agreement condition by pressing either `a` for agree or `d` for disagree.
+    3. Enter the agreement condition by pressing either `a` for agree or `d` for disagree. This information can be found using the treatment key.
     4. Enter the knowledge condition by pressing either `h` for high or `l` for low.
 6. Load the Qualtrics lab survey on the laptop in the subject room.
-    1. Enter the treatment condition, party identification, participant name, and participant ID#.
+    1. Enter the treatment condition, party identification, participant name, and participant ID number.
     2. Check data cave copy of daily schedule for participant's preferred handedness and hearing aid use.
         * Set up the small laptop desk on the side of the chair to match handedness.
         * If participant is unable to wear headphones due to hearing aids, turn on speakers and run a sound check
@@ -145,10 +145,12 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
     * Turn the sensor off with the switch on the side
 12. Walk the participant to the debriefing room, close the door, and debrief them.
     * Give them a debriefing form to read.
-    * Do not offer them a copy, but they can take one if they request one.
+    * Do not offer them a copy, but allow them to take one if they request it.
+    * Explain that there was never intended to be a discussion.
+    * Ask them whether they believed the deception, and if so, at what point.
     * Implore them not to tell anyone about the deception.
-    * Reference the Honor Code: e.g. "Building and maintaining a community of trust is one of the stated goals of the Honor Code. We are trusting you not to reveal the deception about the “discussion” to others, especially those who may take part in the Omnibus Project after you, as this is crucial to the eventual success of this study."
-    * Ask them if they would like a copy of the informed consent to take home (blank copies are in the manila folder on the front desk, or in the data cave).
+    * Reference the Honor Code: e.g. "*Building and maintaining a community of trust is one of the stated goals of the Honor Code. We are trusting you not to reveal the deception about the “discussion” to others, especially those who may take part in the Omnibus Project after you, as this is crucial to the eventual success of this study.*"
+    * Ask them whether they would like a copy of the informed consent to take home (blank copies are in the manila folder on the front desk, or in the data cave).
     * Let subjects know that at this point in time they can ask any questions about the experiment that they have just completed.
     * If there are questions, just try and answer them to the best of your ability but remain as vague as possible. For people who are really pushing to have questions answered that you don’t feel comfortable with, refer them to the contact information at the bottom of the debriefing form.
     * Thank them for their time and for participating in the Omnibus Project.
@@ -182,7 +184,7 @@ After resetting the participant room and debriefing the old participant, complet
 1. Turn off and charge BioNomadix sensor
 2. Backup:
     a. The day’s Acq*Knowledge* data into the backup folder on the external hard drive
-    b. Qualtrics surveys (both lab logs and lab surveys) and save it in the format “MM_DD_YYYY” on the external hard drive.
+    b. Qualtrics surveys (both lab logs and lab surveys) and save it in the format `MM_DD_YYYY` on the external hard drive.
 3. At the end of each week, make a copy of the whole week’s data (both physiological and surveys) and store it on the shared drive.
 4. Shut everything down.
 5. Turn off sink
