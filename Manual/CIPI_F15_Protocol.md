@@ -155,7 +155,7 @@ The checklist is reproduced and elaborated below:
     5. **Ask them to keep our secret** – Ask them not to reveal the deception to anyone. Reference the honor code to hammer the point home.
     6. **Offer informed consent form** – Offer them a blank copy to take home.
     7. **Allow questions** – Let them ask any questions they may have. Be vague. Refer to the sample answers below when possible.
-    8. **Compensate them** – Fill out the Compensation Tracking Form, have them sign the Receipt Form, and give them their $10.
+    8. **Compensate them** – Fill out the Compensation Tracking Form, have them sign the Receipt Form, and give them their 10 dollars.
     9. **Thank them** – Let them know we appreciate what they've done for science.
 13. Check whether the next participant has already arrived before leaving debriefing room, to ensure nothing gets said after you leave the debriefing room.
 
@@ -207,7 +207,7 @@ After resetting the participant room and debriefing the old participant, complet
 
 ## Questions to Anticipate:
 
-* What is the purpose of this study? OR Why do you want this data?
+* What is the purpose of this study? **OR** Why do you want this data?
     * The purpose of this study is to investigate the physiological responses to viewing contentious video clips.
 * Why was my discussion partner not there? What was the purpose?
     * This person was never going to be here. The purpose was to see the physiological response to anticipating a political discussion.
