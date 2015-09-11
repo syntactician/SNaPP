@@ -90,7 +90,7 @@ For the cleanest data, the wrist would be ideal. However, left handed participan
 ![](.Pictures/EDAElectrodes.jpg)
     * For the sake of precision, you may want to hold the electrode facing up and lower the participant's fingertip into the gel.
 5. Wrap the BioNomadix unit's velcro strap around the wrist of the participant's non-dominant hand.  
-![](.Pictures/BioNomadixAttached2.jpg)
+![](.Pictures/BioNomadixAttached.jpg)
     * For larger wrists, it may be useful to wrap one end of the strap around the plastic loop on one side of the BioNomadix, as pictured.  
     ![](.Pictures/BioNomadixLongStrap.jpg)
     * For smaller wrists, it is generally better to thread the strap through both sides, and fasten one side of the strap to the other.  
