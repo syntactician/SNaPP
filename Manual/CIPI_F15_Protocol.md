@@ -135,7 +135,7 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
     a. Save the Acq*Knowledge* graph as both `XXXXX(problem).acq` and `XXXXX(problem).txt`
         * `XXXXX` should be replaced by the participant’s ID number.
         * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `XXXXX.acq`, whereas one in which the PPG failed might look like `XXXXXbadppg.acq`.
-        * The file should be saved as both a .acq and .txt file (these are options in the save dialogue box).
+        * The file should be saved as both a `.acq` and `.txt` file (these are options in the save dialogue box).
     b. If there is time, prepare a new graph for the next participant.
 9. When the old participant is finished with Qualtrics and has rung the bell, enter the subject room and turn the light on.
 10. Verify that the lab survey has been submitted.
@@ -143,29 +143,32 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
     * Throw electrodes away
     * Offer the participant a wipe for the electrode sites.
     * Turn the sensor off with the switch on the side
-12. Walk the participant to the debriefing room, close the door, and debrief them.
-    * Give them a debriefing form to read.
-    * Do not offer them a copy, but allow them to take one if they request it.
-    * Explain that there was never intended to be a discussion.
-    * Ask them whether they believed the deception, and if so, at what point.
-    * Implore them not to tell anyone about the deception.
-    * Reference the Honor Code: e.g. "*Building and maintaining a community of trust is one of the stated goals of the Honor Code. We are trusting you not to reveal the deception about the “discussion” to others, especially those who may take part in the Omnibus Project after you, as this is crucial to the eventual success of this study.*"
-    * Ask them whether they would like a copy of the informed consent to take home (blank copies are in the manila folder on the front desk, or in the data cave).
-    * Let subjects know that at this point in time they can ask any questions about the experiment that they have just completed.
-    * If there are questions, just try and answer them to the best of your ability but remain as vague as possible. For people who are really pushing to have questions answered that you don’t feel comfortable with, refer them to the contact information at the bottom of the debriefing form.
-    * Thank them for their time and for participating in the Omnibus Project.
+12. Walk the participant to the debriefing room, close the door, and debrief them according to the checklist.  
+The checklist is reproduced and elaborated below:
+    1. **Debriefing form** – Give the participant a debriefing form to read. Allow them to keep it if they request it, but do not offer.
+    2. **Reveal the deception** – Explain that the discussion was never intended to occur.
+    3. **Did they suspect?** – Ask them whether they doubted the deception.
+    4. **When?** – If they did see through the deception, when did they begin to suspect? Give them three options:
+    	1. **during the stimulus**
+        2. **during the proctor lie**
+        3. **during the final survey**
+    5. **Ask them to keep our secret** – Ask them not to reveal the deception to anyone. Reference the honor code to hammer the point home.
+    6. **Offer informed consent form** – Offer them a blank copy to take home.
+    7. **Allow questions** – Let them ask any questions they may have. Be vague. Refer to the sample answers below when possible.
+    8. **Compensate them** – Fill out the Compensation Tracking Form, have them sign the Receipt Form, and give them their $10.
+    9. **Thank them** – Let them know we appreciate what they've done for science.
 13. Check whether the next participant has already arrived before leaving debriefing room, to ensure nothing gets said after you leave the debriefing room.
 
 #### Between Participants:
 
 1. Make sure previous Acq*Knowledge* recording was saved with `XXXXX(problem).acq` and `XXXXX(problem).txt` formats using their 5-digit unique subject ID).
-j2. Wipe down headphones, mouse, keyboard, and bell.
-3. Make sure fresh electrodes are laid out, haven’t dried out.
+2. Wipe down headphones, mouse, keyboard, and bell.
+3. Make sure fresh electrodes are laid out and haven’t dried out.
 4. Pull up new lab survey on participant laptop.
 5. Check if laptop cart needs to be switched for handedness of next participant.
 6. Check if speakers need to be used instead of headphones. Run sound check if so.
 7. Pull up SuperLab for next participant.
-8. Open new Acq*Knowledge* Graph (having already saved the old one with XXXXX(problem).acq and XXXXX(problem).txt formats using their 5-digit unique subject ID).
+8. Open new Acq*Knowledge* Graph (having already saved the old one with `XXXXX(problem).acq` and `XXXXX(problem).txt` formats using their 5-digit unique subject ID).
 9. Fill out and submit lab log for old participant.
 10. Open new lab log, fill out the initial parts for next participant.
 
@@ -183,9 +186,17 @@ After resetting the participant room and debriefing the old participant, complet
 
 1. Turn off and charge BioNomadix sensor
 2. Backup:
-    a. The day’s Acq*Knowledge* data into the backup folder on the external hard drive
-    b. Qualtrics surveys (both lab logs and lab surveys) and save it in the format `MM_DD_YYYY` on the external hard drive.
-3. At the end of each week, make a copy of the whole week’s data (both physiological and surveys) and store it on the shared drive.
+    a. that day’s Acq*Knowledge* data to the external hard drive.
+    b. that day's Qualtrics surveys to the external hard drive.
+    	* Download the results of both the lab log and the lab survey from Qualtrics as `.csv` files.
+        * Save lab logs in the format `LS_mm_dd_yyyy.csv`.
+	* Save lab surveys in the format `LL_mm_dd_yyyy.csv`.
+3. At the end of each week, back up all data for the week to the `govtomni` shared drive.
+    * Copy all Acq*Knowledge* files for the week to the drive.
+    * Save that week's survey data to the drive.
+        * Download the week's data for both the lab log and lab survey from Qualtrics.
+        * Save lab log data in the format `LL_mm_dd_yyyy-mm_dd_yyyy.csv`.
+        * Save lab survey data in the format `LS_mm_dd_yyyy-mm_dd_yyyy.csv`.
 4. Shut everything down.
 5. Turn off sink
     * Refill freshwater tank if needed; empty wastewater tank if needed.
