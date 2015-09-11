@@ -4,9 +4,9 @@
 
 #### At the beginning of each week, check to ensure that:
 
-1. There are plenty of consent forms in the organizer in the Data Cave. If there are not, print new ones.
-2. There are both hand and surface wipes, and both EDA and ECG electrodes. Be proactive so we have ample warning to restock.
-3. Check the water levels in tanks of the kitchen sink. To refill the tank, use the funnel at the water fountain. When the used water is near full, dispose of it in the bathroom.
+1. there are plenty of consent forms and compensation receipt forms in the organizer in the Data Cave. If there are not, print new ones.
+2. there are enough of both hand and surface wipes, both EDA and ECG electrodes, and 10 dollar bills. Be proactive in alerting Professor Settle and John so we have ample warning to restock.
+3. there is enough water in the kitchen sink. To refill the tank, use the funnel at the water fountain. When the used water is near the full line, dispose of it in the bathroom.
 
 #### Always be aware:
 
@@ -18,17 +18,18 @@
 
 ## Day Before Proctoring:
 
-1. Print two copies of the daily schedule for the next day: one for the Data Cave, and one for the proctoring clipboard. The latter should only have the participant's name, ID number, and scheduled time.
+1. Print two copies of the daily proctoring schedule for the next day: one for the Data Cave, and one for the proctoring clipboard. The latter should only have the participant's name, ID number, and scheduled time. The schedules should be posted in the `govtomni` drive, in the `CIPI_F15` folder.
 2. Set up the Data Cave:
     * Check to make sure that the BioNomadix units are charging. If they are not, plug them in.
 3. Set up the subject room:
     a. Check the next day's list for the first participant's handedness. Set up the laptop desk accordingly.
-    b. Check that the chair and monitor are positioned on the tape marks on the floor.
-    c. Check that all the cords are connected:
+    b. Check whether the first participant wears hearing aids that preclude the use of headphones. If so, set up the external speakers.
+    c. Check that the chair and monitor are positioned on the tape marks on the floor.
+    d. Check that all the cords are connected:
         * VGA cord from SuperLab iMac to external monitor, through the wall
         * Headphone extension cord to the SuperLab iMac, through the wall
-    d. Ensure the room looks tidy.
-4. Set up the debriefing room:
+    e. Ensure the room looks tidy.
+4. Set up the debriefing (conference) room:
     a. Arrange chairs so it looks nice and organized.
     b. Check trash cans for excessive trash.
 5. Check the water tank levels in the kitchen sink:
@@ -39,27 +40,28 @@
 
 #### Before the first participant arrives:
 
-1. Make sure the debriefing room is neat.
+1. Make sure the debriefing (conference) room is neat.
     a. Set out a debriefing form.
     b. Arrange chairs so it looks nice and organized.
     c. Check trash cans for excessive trash.
-    d. Write “Thank you for participating in the Omnibus Project!” or something similar on the whiteboard.
+    d. Write “Thank you for your participation in the research study!” or something similar on the whiteboard.
 2. Check the water tank levels in the kitchen sink.
     1. If the used water tank is full, empty it in the bathroom.
     2. If the clean water tank is empty, use a rolling chair to move the tank to the water bottle refill station down the hallway, and use the funnel and attached tube to refill.
 3. Turn on the sink. To do this, open the doors underneath, and flip up the switch on the upper right-hand inner wall of the sink. The pump will make a loud noise at first, this is normal.
     * Additionally, the sink will need to be turned off at the end of each day.
-4. Open the Acq*Knowledge* graph template file.
+4. Open the Acq*Knowledge* graph template file `CIPI_F15.gtl` located on the bottom right corner of the desktop.
 5. Load the stimulus presentation in SuperLab.
-    1. When prompted, enter the participant's party ID by pressing `d` for Democrat, `r` for Republican, or `i` for true Independents. Use lowercase letters.
+    1. When prompted, enter the participant's party ID by pressing '`d`' for Democrat, '`r`' for Republican, or '`i`' for true Independents. Use lowercase letters.
     2. Enter the treatment condition (by pressing the number key corresponding to their condition number).
-    3. Enter the agreement condition by pressing either `a` for agree or `d` for disagree. This information can be found using the treatment key.
-    4. Enter the knowledge condition by pressing either `h` for high or `l` for low.
+    3. Enter the agreement condition by pressing either '`a`' for agree or '`d`' for disagree. This information can be found using the treatment key.
+    4. Enter the knowledge condition by pressing either '`h`' for high or '`l`' for low.
 6. Load the Qualtrics lab survey on the laptop in the subject room.
-    1. Enter the treatment condition, party identification, participant name, and participant ID number.
+    1. Enter the discussion treatment condition (agree/disagree; high/low knowledge), treatment number, party identification, video condition (political/apolitical), participant name, and participant ID number.
     2. Check data cave copy of daily schedule for participant's preferred handedness and hearing aid use.
         * Set up the small laptop desk on the side of the chair to match handedness.
-        * If participant is unable to wear headphones due to hearing aids, turn on speakers and run a sound check
+        * If participant is unable to wear headphones due to hearing aids, turn on speakers.
+	* Run a sound check (even with headphones).
 7. Check to make sure that the room is set up:
     a. Adjust the blinds as needed in Data Cave.
     b. Check to ensure all furniture is placed properly on the tape marks
@@ -77,7 +79,7 @@ That checklist is reproduced and elaborated here:
     b. **watch videos** – Explain they'll be shown a few short video clips (informed consent may have wording about the video clips being potentially distressing, but if they pick up on this, ensure them that we haven’t had anyone have an issue with the videos yet).
     c. **answer survey questions** – Explain that they'll be answering some survey questions.
 3. **Chewing gum** – Ask if they're chewing gum, and if so, have them dispose of it.
-4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage out data.
+4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage the data we collect.
 5. **Jewelry/watch removal** – Ask them to remove all jewelry on their wrists and hands.
 6. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
 7. **Bathroom** – Inform them that if they need to use the bathroom, now is the time. If they do go, note it in the lab log since (presumably) they'll wash their hands with soap.
@@ -93,16 +95,15 @@ That checklist is reproduced and elaborated here:
     * Red – left ankle
     * Black – right ankle
 4. Attach the BioNomadix unit as described in the BIOPAC Manual.
-    a. Attach the BioNomadix unit to the wrist **opposite** the participant's dominant hand.
+    a. Attach the BioNomadix unit to the wrist **opposite** the participant's mouse hand.
     b. EL507 electrodes are to connect the BioNomadix unit's leads to the tips of the index and middle fingers:
         * Black – index
         * Red – middle
-
 5. Show them the laptop on which they'll be answering surveys.
-    a. Explain they will need to keep the sensor hand still once study begins, when not using the laptop. Ensure that they can use the mouse comfortably and without excess movement of their other arm.
-    b. Ask them to answer the initial survey questions while leaving their non-dominant hand on the armrest (for practice).
+    a. Explain they will need to keep their arms still once study begins, when not using the laptop. Ensure that they can use the mouse comfortably and without excess movement of their other arm.
+    b. Ask them to answer the initial survey questions while leaving their non-mouse hand on the armrest (for practice).
     c. Instruct them to close the laptop and ring the bell when they have completed the survey 	questions.
-6. Leave room while participant completes first questions.
+6. Leave room while participant completes these first questions.
 7. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
 5. After the bell is rung, turn off the lights in the datacave, and re-enter the subject room.
 11. Give the participant a brief overview of what they will be asked to do:
@@ -117,12 +118,12 @@ That checklist is reproduced and elaborated here:
 
 Acq*Knowledge* should already be up and ready to collect data. If it is not, you must disconnect the BioNomadix unit from the participant and set it up now before you proceed.
 
-1. Bring up the lab log side-by-side with the Acq*Knowledge* graph.
+1. Bring up the `CIPI_F15` lab log (bookmarked in Chrome) side-by-side with the Acq*Knowledge* graph.
 2. Press START to begin the Acq*Knowledge* recording before advancing SuperLab.
 3. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly (when in doubt, refer to the BIOPAC Manual.
 4. After Superlab is advanced, the participant will be prompted by the soundcheck to take a deep breath. This should s(t)imulate an EDA event. If it does not, make a note in the lab log.
 5. After the first set of videos ends and the instruction screen appears, peek through the blinds to make sure that the participant is answering the Qualtrics survey on the laptop. When they are finished (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the spacebar on the SuperLab iMac.
-6. Repeat step 4 after the second set of videos
+6. Repeat step 5 after the second set of videos
 7. **DISCUSSION STIMULUS**
     a. The participant thinks that they are preparing for a political conversation. Give them until the end of the stimulus to prepare.
     b. After the stimulus, knock on the door, enter the room, close the door after you, and perform the deception according to the following script:
@@ -130,7 +131,7 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
         * Normally, the discussion is the last part of the lab session, but we did this study last year, and unfortunately we had enough no-shows that we knew we needed a backup plan going forward.
         * So instead of having the discussion, the last part of your lab session will be this extra portion of the survey I’m going to pull up on the laptop.
     c. Open the laptop and click through the question that comes up asking whether the discussion partner showed up.
-    d. Leave the room for them to complete the survey.
+    d. Leave the room while they complete the survey.
 8. Between lying and debriefing, while the participant is doing the last Qualtrics section:
     a. Save the Acq*Knowledge* graph as both `XXXXX(problem).acq` and `XXXXX(problem).txt`
         * `XXXXX` should be replaced by the participant’s ID number.
@@ -141,43 +142,44 @@ Acq*Knowledge* should already be up and ready to collect data. If it is not, you
 10. Verify that the lab survey has been submitted.
 11. Remove the sensors from the participant.
     * Throw electrodes away
-    * Offer the participant a wipe for the electrode sites.
+    * Offer the participant a wipe for the electrode gel on their fingers.
     * Turn the sensor off with the switch on the side
 12. Walk the participant to the debriefing room, close the door, and debrief them according to the checklist.  
 The checklist is reproduced and elaborated below:
     1. **Debriefing form** – Give the participant a debriefing form to read. Allow them to keep it if they request it, but do not offer.
     2. **Reveal the deception** – Explain that the discussion was never intended to occur.
-    3. **Did they suspect?** – Ask them whether they doubted the deception.
-    4. **When?** – If they did see through the deception, when did they begin to suspect? Give them three options:
+    3. **Did they suspect?** – Ask them whether they doubted the deception.  
+    Ask whether it occured:
     	1. **during the stimulus**
         2. **during the proctor lie**
         3. **during the final survey**
     5. **Ask them to keep our secret** – Ask them not to reveal the deception to anyone. Reference the honor code to hammer the point home.
     6. **Offer informed consent form** – Offer them a blank copy to take home.
-    7. **Allow questions** – Let them ask any questions they may have. Be vague. Refer to the sample answers below when possible.
+    7. **Allow questions** – Let them ask any questions they may have. Keep your answers vague. Refer to the sample answers below when possible.
     8. **Compensate them** – Fill out the Compensation Tracking Form, have them sign the Receipt Form, and give them their 10 dollars.
     9. **Thank them** – Let them know we appreciate what they've done for science.
-13. Check whether the next participant has already arrived before leaving debriefing room, to ensure nothing gets said after you leave the debriefing room.
+13. Check whether the next participant has already arrived before leaving debriefing room, to ensure nothing sensitive gets said after you leave the debriefing room.
 
 #### Between Participants:
 
 1. Make sure previous Acq*Knowledge* recording was saved with `XXXXX(problem).acq` and `XXXXX(problem).txt` formats using their 5-digit unique subject ID).
-2. Wipe down headphones, mouse, keyboard, and bell.
-3. Make sure fresh electrodes are laid out and haven’t dried out.
-4. Pull up new lab survey on participant laptop.
-5. Check if laptop cart needs to be switched for handedness of next participant.
-6. Check if speakers need to be used instead of headphones. Run sound check if so.
-7. Pull up SuperLab for next participant.
-8. Open new Acq*Knowledge* Graph (having already saved the old one with `XXXXX(problem).acq` and `XXXXX(problem).txt` formats using their 5-digit unique subject ID).
-9. Fill out and submit lab log for old participant.
-10. Open new lab log, fill out the initial parts for next participant.
+2. Fill out and submit the lab log for the last participant.
+3. Wipe down headphones, mouse, keyboard, and bell.
+4. Make sure fresh electrodes are laid out and haven’t dried out.
+5. Pull up new lab survey on participant laptop.
+6. Check if laptop cart needs to be switched for handedness of next participant.
+7. Check if speakers need to be used instead of headphones. Run sound check if so.
+8. Pull up SuperLab for next participant.
+9. Open new Acq*Knowledge* Graph (having already saved the old one with `XXXXX(problem).acq` and `XXXXX(problem).txt` formats using their 5-digit unique subject ID).
+10. Fill out and submit lab log for old participant.
+11. Open new lab log, fill out the initial parts for next participant.
 
 
 #### Lab Log:
 
-After resetting the participant room and debriefing the old participant, complete the Lab Log for the old participant. (For the last participant of the day, fill it out as soon as they leave.)
+After debriefing the old participant and saving their Acq*Knowledge* recording, complete the Lab Log for the old participant. (For the last participant of the day, fill it out as soon as they leave.)
 
-* **During the lab session, try to note building noise as it happens. You won't remember later.**
+* **During the lab session, try to note building noise in the lab log as it happens. You won't remember later.**
 * If there are multiple proctors, all of them should confer to ensure everything makes it to the lab log. 
 * It is important you do this as soon as possible after the subject leaves so that you don’t forget any pertinent detail. No detail is too small to note.
 
@@ -200,8 +202,8 @@ After resetting the participant room and debriefing the old participant, complet
 4. Shut everything down.
 5. Turn off sink
     * Refill freshwater tank if needed; empty wastewater tank if needed.
-6. Re-check inventory. Electrodes, informed consent forms, and wipes.
-    * When getting remotely low on anything, notify Professor Settle ASAP so that it can be restocked in time.
+6. Re-check inventory. Electrodes, informed consent forms, compensation receipt forms, compensation tracking forms, supply of 10 bills, and wipes.
+    * When getting remotely low on anything, notify Professor Settle and John ASAP so that it can be restocked in time.
 7. Wipe down headphones, laptop, mouse, bell, and other surfaces.
 
 
