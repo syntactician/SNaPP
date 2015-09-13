@@ -79,7 +79,7 @@ Be aware that there will be additional EDA calibration prompts at the start of d
 Before beginning to attach any equipment, have the participant remove all jewelry on their hands, arms, and ankles, and rinse their hands with water (do not have them wash with soap).  
 For some protocols, you may wish to have the participant apply their own ECG electrodes (to avoid touching the participant or making them uncomfortable). If so, provide them with an [Electrode Placement Handout](Electrode_Handout.md) and connect the leads to the electrodes before they attach themselves.
 
-Before you attach the BioNomadix unit, you **must** calibrate it. to do so, follow Steps 1-3 of the __ Collecting Data in Acq*Knowledge* __ below.
+Before you attach the BioNomadix unit, you **must** calibrate it. to do so, follow Steps 1-3 of the **Collecting Data in AcqKnowledge** section below.
 
 1. Place a cloth [EL504](http://www.biopac.com/disposable-cloth-electrode-30) electrode on the inside surface of each of the participant's ankles, behind the bone, avoiding hair if possible.  
 This placement should be ideal, avoiding both hair and fatty tissues.  
@@ -112,7 +112,7 @@ Hook the participant up to the sensor as described above before continuing.
 4. Collect data for about 30 seconds, the check to make sure the waveforms look essentially like this example. EDA should be between 5 and 20 mS, and heart rate should be in between 40 and 100 bpm.
     * This is what ideal data looks like:  
     ![](.Pictures/MockData.png)  
-    * If your data doesn't look anything like this, try rescaling it using the autoscaling tools.
+    * If your data doesn't look anything like this, try rescaling it using the autoscaling tools (`⌘+Y` and `⌘+H`).
     * If the ECG graph looks strange, make sure the clips are properly fastened. If that doesn't help, just make a note in the lab log.
     * If the EDA graph looks rough like this, there is likely a connection problem between the electrodes and the fingertips. Rub them in to try to improve the connection.  
     ![](.Pictures/BadEDA.png)  
