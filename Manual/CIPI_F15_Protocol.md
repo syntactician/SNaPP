@@ -145,9 +145,10 @@ After Superlab is advanced, the participant will be prompted by the sound check 
     c. Open the laptop and click through the question that comes up asking whether the discussion partner showed up.
     d. Leave the room while they complete the survey.
 8. Between lying and debriefing, while the participant is doing the last Qualtrics section:
-    a. Save the Acq*Knowledge* graph as both `XXXXX(problem).acq` and `XXXXX(problem).txt`
+    a. Save the Acq*Knowledge* graph as both `rawXXXXX(problem).acq` and `rawXXXXX(problem).txt`
+        * `raw` indicates that the file has not yet undergone any postprocessing.
         * `XXXXX` should be replaced by the participant’s ID number.
-        * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `XXXXX.acq`, whereas one in which the PPG failed might look like `XXXXXbadppg.acq`.
+        * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `rawXXXXX.acq`, whereas one in which the PPG failed might look like `rawXXXXXbadppg.acq`.
         * The file should be saved as both a `.acq` and `.txt` file (these are options in the save dialog box).
     b. Fill out the Compensation Tracking Form for the participant's monetary compensation, and prepare a Receipt Form, Debriefing Form, and a 10 dollar bill for the debriefing.
     b. If there is time, prepare a new graph for the next participant.
@@ -161,8 +162,8 @@ After Superlab is advanced, the participant will be prompted by the sound check 
 The checklist is reproduced and elaborated below:
     1. **Debriefing form** – Give the participant a debriefing form to read. Allow them to keep it if they request it, but do not offer.
     2. **Reveal the deception** – Explain that the discussion was never intended to occur.
-    3. **Did they suspect?** – Ask them whether they doubted the deception.  
-    Ask whether it occurred:
+    3. **Did they suspect?** – Ask them whether they doubted the deception.
+    4. **When** – If they did suspect, ask whether it occurred:
     	1. **during the stimulus**
         2. **during the proctor lie**
         3. **during the final survey**
