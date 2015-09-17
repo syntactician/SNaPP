@@ -18,7 +18,7 @@
 
 ## Day Before Proctoring:
 
-1. Print two copies of the daily proctoring schedule for the next day: one for the Data Cave, and one for the proctoring clipboard. The latter should only have the participant's name, ID number, and scheduled time. The schedules should be posted in the `govtomni` drive, in the `CIPI_F15` folder.
+1. Print two copies of the daily proctoring schedule for the next day and put it on the proctoring clipboard. The schedules should be posted in the `govtomni` drive, in the `CIPI_F15` folder.
 2. Set up the Data Cave:
     * Check to make sure that the BioNomadix units are charging. If they are not, plug them in.
 3. Set up the Participant Room:
@@ -57,10 +57,10 @@
 **If any boxes are checked, un-check them.**  
 Select `Main Group` for the participant group.  
 Press `OK`.
-    3. You should now be prompted to enter the participant's party ID. Do so by pressing '`d`' for Democrat, '`r`' for Republican, or '`i`' for true Independents. Use lowercase letters.
+    3. You should now be prompted to enter the participant's party ID. Do so by pressing '`d`' for *Democrat*, '`r`' for *Republican*, or '`i`' for true *Independents*. Use lowercase letters.
     4. Enter the treatment condition (by pressing the number key corresponding to their condition number).
-    5. Enter the agreement condition by pressing either '`a`' for agree or '`d`' for disagree. For Independents, press '`n`' for not applicable. This information can be found using the treatment key.
-    6. Enter the knowledge condition by pressing either '`h`' for high or '`l`' for low.
+    5. Enter the agreement condition by pressing either '`a`' for  *agree* or '`d`' for *disagree*.
+    6. Enter the knowledge condition by pressing either '`h`' for *high* or '`l`' for *low*.
 6. Load the Qualtrics lab survey on the laptop in the Participant Room.
     1. Enter the discussion treatment condition (agree/disagree; high/low knowledge), treatment number, party identification, video condition (political/apolitical), participant name, and participant ID number.
     2. Check data cave copy of daily schedule for participant's preferred handedness and hearing aid use.
@@ -87,10 +87,10 @@ That checklist is reproduced and elaborated here:
 3. **Chewing gum** – Ask if they're chewing gum, and if so, have them dispose of it.
 4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage the data we collect.
 5. **Jewelry/watch removal** – Ask them to remove all jewelry on their wrists and hands.
-6. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
-7. **Bathroom** – Inform them that if they need to use the bathroom, now is the time. If they do go, note it in the lab log since (presumably) they'll wash their hands with soap.
+6. **Bathroom** – Inform them that if they need to use the bathroom, now is the time. If they do go, note it in the lab log since (presumably) they'll wash their hands with soap.
+7. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
 8. **Building noise** – Warn the participant that building noise is loud but common.
-7. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or you notice that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
+9. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or you notice that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
 
 #### Starting the Lab Session:
 
@@ -100,28 +100,29 @@ That checklist is reproduced and elaborated here:
     * Red – left ankle
     * Black – right ankle
     * Unattached – right arm
-4. Show them the laptop on which they'll be answering surveys.
+4. Place foam EL507 electrodes on the index and middle fingers of the participant's non-mouse hand.
+5. Show them the laptop on which they'll be answering surveys.
     a. Explain they will need to keep their arms still once study begins, when not using the laptop. Ensure that they can use the mouse comfortably and without excess movement of their other arm.
     b. Ask them to answer the initial survey questions while leaving their non-mouse hand on the armrest (for practice).
     c. Instruct them to close the laptop and ring the bell when they have completed the survey 	questions.
-5. Leave the room while participant completes these first questions.
-6. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
-7. After the bell is rung, turn off the lights in the Data Cave, and re-enter the Participant Room.
-8. Attach the white ECG lead to the electrode on the participant's right forearm.
-9. Attach the BioNomadix unit as described in the BIOPAC Manual.
+6. Leave the room while participant completes these first questions.
+7. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
+8. After the bell is rung, turn off the lights in the Data Cave, and re-enter the Participant Room.
+9. Attach the white ECG lead to the electrode on the participant's right forearm.
+10. Attach the BioNomadix unit as described in the BIOPAC Manual.
     a. Attach the BioNomadix unit to the wrist **opposite** the participant's mouse hand.
-    b. EL507 electrodes are to connect the BioNomadix unit's leads to the tips of the index and middle fingers:
+    b. Attach the EL507 electrodes on the participant's hand to the BioNomadix unit's leads:
         * Black – index
         * Red – middle
-10. Give the participant a brief overview of what they will be asked to do:
+11. Give the participant a brief overview of what they will be asked to do:
     a. Inform them that videos and instructions will be presented on the monitor.
     b. Make sure they understand that there will be blank screens in between these presentations.
     c. Explain the lights will be shut off.
     d. Instruct them to sit back, relax, and limit their motion as much as possible **including while nothing is on screen**.
     e. Instruct them to ring the bell if they have questions.
-11. Hand the participants the headphones, and instruct them to put them on.
-12. Remind the participant that they can stop their participation at any time.
-13. Turn off the light and leave the room.
+12. Hand the participants the headphones, and instruct them to put them on.
+13. Remind the participant that they can stop their participation at any time.
+14. Turn off the light and leave the room.
 
 #### Collecting Data:
 
