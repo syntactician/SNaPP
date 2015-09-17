@@ -109,7 +109,7 @@ That checklist is reproduced and elaborated here:
 11. Give the participant a brief overview of what they will be asked to do:
     a. Inform them that videos and instructions will be presented on the monitor.
     b. Make sure they understand that there will be blank screens in between these presentations.
-    c. Instruct them to sit back, relax, and limit their motion as much as possible *including while nothing is on screen*.
+    c. Instruct them to sit back, relax, and limit their motion as much as possible **including while nothing is on screen**.
     d. Instruct them to ring the bell if they have questions.
 12. Remind the participant that they can stop their participation at any time.
 13. Turn off the light and leave the room.
