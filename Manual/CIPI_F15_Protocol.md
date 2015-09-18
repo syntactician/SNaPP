@@ -1,4 +1,4 @@
-# Fall 2015 CIPI Omnibus Protocol
+# Fall 2015 CIPI Protocol
 
 ## Perpetual Maintenance:
 
@@ -88,7 +88,7 @@ That checklist is reproduced and elaborated here:
 4. **Cell phone** – If they have one with them, ask them to turn it off. Inform them that having it go off, even on vibrate, can damage the data we collect.
 5. **Jewelry/watch removal** – Ask them to remove all jewelry on their wrists and hands.
 6. **Bathroom** – Inform them that if they need to use the bathroom, now is the time. If they do go, note it in the lab log since (presumably) they'll wash their hands with soap.
-7. **Rinse hands** – Direct them to rinste their hands in the kitchen sink. Warn them that the sink is noisy.
+7. **Rinse hands** – Direct them to rinse their hands in the kitchen sink. Warn them that the sink is noisy.
 8. **Building noise** – Warn the participant that building noise is loud but common.
 9. **Mental notes for lab log** – If there are any abnormalities, or the participant seems agitated, or out of breath, or you notice that it is hot, or anything of this nature, make a mental note and record it in the lab log once the session begins.
 
@@ -106,7 +106,13 @@ That checklist is reproduced and elaborated here:
     b. Ask them to answer the initial survey questions while leaving their non-mouse hand on the armrest (for practice).
     c. Instruct them to close the laptop and ring the bell when they have completed the survey 	questions.
 6. Leave the room while participant completes these first questions.
-7. While out of the room, add the PPGED-R module according to the instructions in the BIOPAC Manual and complete the initial calibrations.
+7. While out of the room, "`START`" the recording according to the instructions in the BIOPAC Manual in order to complete the initial EDA calibrations:
+    1. Press `START`.
+    2. Ensure that the BioNomadix unit is turned on and blinking green.
+    3. Press `OK` on the first pop-up.
+    4. As directed, make sure that the leads are attached to the unit, but not to any electrodes.
+    5. Click `Calibrate`.
+    6. **Do not click `Continue` on the next pop-up screen. Data collection will begin immediately after it is clicked.**
 8. After the bell is rung, turn off the lights in the Data Cave, and re-enter the Participant Room.
 9. Attach the white ECG lead to the electrode on the participant's right forearm.
 10. Attach the BioNomadix unit as described in the BIOPAC Manual.
@@ -126,14 +132,15 @@ That checklist is reproduced and elaborated here:
 
 #### Collecting Data:
 
-Acq*Knowledge* should already be up and ready to collect data. If it is not, you must disconnect the BioNomadix unit from the participant and set it up now before you proceed.
+Acq*Knowledge* should already be set up, and calibrated, and you should see a pop-up from Acq*Knowledge*.  
+If not, you must disconnect the BioNomadix unit from the participant and calibrate it now before you proceed.
 
-1. Bring up the `CIPI_F15` lab log (bookmarked in Chrome) side-by-side with the Acq*Knowledge* graph.
-2. Press START to begin the Acq*Knowledge* recording before advancing SuperLab.
+1. Access the `CIPI_F15` lab log on the Lenovo laptop or your own device (as the Acq*Knowledge* computer must have wifi turned off).
+2. Press `Continue` on the Acq*Knowledge* pop-up to begin recording recording data.
 3. Monitor the data recording in Acq*Knowledge* for 30 seconds to make sure it is collecting properly (when in doubt, refer to the BIOPAC Manual.
 4. Advance the SuperLab stimulus by pressing the space bar.  
 **Note that when the stimulus is advanced, there will be no visual change. It will play a sound check through the speakers. Do not press space twice.**  
-After Superlab is advanced, the participant will be prompted by the sound check to take a deep breath. This should s(t)imulate an EDA event. If the participant does not appear to experience an EDA event during the sound check, make a note in the lab log.
+After Superlab is advanced, the participant will be prompted by the sound check to take a deep breath. This should stimulate an EDA event. If the participant does not appear to experience an EDA event during the sound check, make a note in the lab log.
 5. After the first set of videos ends and the instruction screen appears, peek through the blinds to make sure that the participant is answering the Qualtrics survey on the laptop. When they are finished (the laptop lid is pushed down and the bell is rung), advance the stimulus by pressing the space bar on the SuperLab iMac.
 6. Repeat step 5 after the second set of videos
 7. **DISCUSSION STIMULUS**
@@ -148,7 +155,7 @@ After Superlab is advanced, the participant will be prompted by the sound check 
     a. Save the Acq*Knowledge* graph as both `rawXXXXX(problem).acq` and `rawXXXXX(problem).txt`
         * `raw` indicates that the file has not yet undergone any postprocessing.
         * `XXXXX` should be replaced by the participant’s ID number.
-        * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `rawXXXXX.acq`, whereas one in which the PPG failed might look like `rawXXXXXbadppg.acq`.
+        * `(problem)` should be replaced with text describing the nature of any glaring problems about the data or the session only if there in one. A non-problematic session should look like `raw12345.acq`, whereas one in which the EDA failed might look like `raw12345badEDA.acq`.
         * The file should be saved as both a `.acq` and `.txt` file (these are options in the save dialog box).
     b. Fill out the Compensation Tracking Form for the participant's monetary compensation, and prepare a Receipt Form, Debriefing Form, and a 10 dollar bill for the debriefing.
     b. If there is time, prepare a new graph for the next participant.
@@ -176,7 +183,7 @@ The checklist is reproduced and elaborated below:
 
 #### Between Participants:
 
-1. Make sure previous Acq*Knowledge* recording was saved with `XXXXX(problem).acq` and `XXXXX(problem).txt` formats using their 5-digit unique subject ID).
+1. Make sure previous Acq*Knowledge* recording was saved with `rawXXXXX(problem).acq` and `rawXXXXX(problem).txt` formats using their 5-digit unique subject ID).
 2. Fill out and submit the lab log for the last participant.
 3. Wipe down headphones, mouse, keyboard, and bell.
 4. Make sure fresh electrodes are laid out and haven’t dried out.
@@ -184,7 +191,7 @@ The checklist is reproduced and elaborated below:
 6. Check if laptop cart needs to be switched for handedness of next participant.
 7. Check if speakers need to be used instead of headphones. Run sound check if so.
 8. Pull up SuperLab for next participant.
-9. Open new Acq*Knowledge* Graph (having already saved the old one with `XXXXX(problem).acq` and `XXXXX(problem).txt` formats using their 5-digit unique subject ID).
+9. Open new Acq*Knowledge* Graph (having already saved the old one with `rawXXXXX(problem).acq` and `rawXXXXX(problem).txt` formats using their 5-digit unique subject ID).
 10. Fill out and submit lab log for old participant.
 11. Open new lab log, fill out the initial parts for next participant.
 
@@ -205,14 +212,14 @@ After debriefing the old participant and saving their Acq*Knowledge* recording, 
     a. that day’s Acq*Knowledge* data to the external hard drive.
     b. that day's Qualtrics surveys to the external hard drive.
     	* Download the results of both the lab log and the lab survey from Qualtrics as `.csv` files.
-        * Save lab logs in the format `LS_mm_dd_yyyy.csv`.
-	* Save lab surveys in the format `LL_mm_dd_yyyy.csv`.
+        * Save lab logs in the format `ll_mm.dd.yyyy.csv`.
+	* Save lab surveys in the format `ls_mm.dd.yyyy.csv`.
 3. At the end of each week, back up all data for the week to the `govtomni` shared drive.
     * Copy all Acq*Knowledge* files for the week to the drive.
     * Save that week's survey data to the drive.
         * Download the week's data for both the lab log and lab survey from Qualtrics.
-        * Save lab log data in the format `LL_mm_dd_yyyy-mm_dd_yyyy.csv`.
-        * Save lab survey data in the format `LS_mm_dd_yyyy-mm_dd_yyyy.csv`.
+        * Save lab log data in the format `ll_mm.dd.yyyy-mm.dd.yyyy.csv`.
+        * Save lab survey data in the format `ls_mm.dd.yyyy-mm.dd.yyyy.csv`.
 4. Shut everything down, including (but not limited to):
     * the BioNomadix sensor
         * Remember to charge the sensor!
