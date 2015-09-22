@@ -6,5 +6,5 @@ If you feel especially concerned about the questions asked in this study or anyt
 
 Thank you for your participation in this study. We ask that you do not talk about your participation in this study, especially about the anticipated discussion, with other potential research participants for the study until they have completed the study.
 
-Thank you for your participation in this study.  We ask that you do not talk about your participation in this study with other potential research participants in the Christopher Wren Association until after they have completed the study. 
+Thank you for your participation in this study.  We ask that you do not talk about your participation in this study with other potential research participants until after they have completed the study. 
  If you have any further questions about the study, please contact Dr. Jaime Settle ([jsettle@wm.edu](mailto:jsettle@wm.edu)).  In addition, if you have any concerns about any aspect of the study, you may contact the Chair of the Protection of Human Subjects Committee, Ray McCoy, 1-855-800-7187 or [rwmcco@wm.edu](mailto:rwcco@wm.edu).
