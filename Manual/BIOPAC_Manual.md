@@ -112,7 +112,7 @@ Hook the participant up to the sensor as described above before continuing.
 4. Collect data for about 30 seconds, the check to make sure the waveforms look essentially like this example. EDA should be between 5 and 20 mS, and heart rate should be in between 40 and 100 bpm.
     * This is what ideal data looks like:  
     ![](.Pictures/MockData.png)  
-    * If your data doesn't look anything like this, try rescaling it using the autoscaling tools (`⌘+Y` and `⌘+H`).
+    * If your data doesn't look anything like this, try rescaling it using the autoscaling tools (`Command+Y` and `Command+H`).
     * If the ECG graph looks strange, make sure the clips are properly fastened. If that doesn't help, just make a note in the lab log.
     * If the EDA graph looks rough like this, there is likely a connection problem between the electrodes and the fingertips. Rub them in to try to improve the connection.  
     ![](.Pictures/BadEDA.png)  

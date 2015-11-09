@@ -24,7 +24,7 @@
 #### End of day:
 1. **Turn off and charge BioNomadix sensor**
 2. Backup
-	a. AcqKnowledge®
+	a. Acq*Knowledge*®
 	b. Qualtrics surveys
 3. End of week: shared drive backup
 4. Shut everything down
