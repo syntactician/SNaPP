@@ -3,3 +3,4 @@ test.*
 *.swp
 ~$*
 *autobackup*
+Manual/Exported/*
